@@ -1,0 +1,3111 @@
+TUnitTests
+v7
+r0
+t291401159.359146
+cCheck dependencies
+cProcessInfoPlistFile /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/Info.plist UnitTests-Info.plist
+cCompileC build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModelTest.o /Users/aubrey/pucker/GameModelTest.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cLd /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests normal i386
+cPhaseScriptExecution "Run Script" /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Script-7E1F3565115E63C600567C7F.sh
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers/MacTypes.h
+c000000004480A0F800000000000073BA
+t1149280504
+s29626
+
+N/Users/aubrey/pucker/Classes/AbstractTrackable.h
+c000000004BACDA000000000000000237
+t1269619200
+s567
+i<Foundation/Foundation.h>
+
+N/Users/aubrey/pucker/Classes/GameModel.h
+c000000004BAD213D000000000000038F
+t1269637437
+s911
+i<Foundation/Foundation.h>
+i"Puck.h"
+
+N/Users/aubrey/pucker/Classes/GameModel.m
+c000000004BAE2B5F0000000000001609
+t1269705567
+s5641
+i"GameModel.h"
+
+N/Users/aubrey/pucker/Classes/Puck.h
+c000000004BACF6F6000000000000039D
+t1269626614
+s925
+i<Foundation/Foundation.h>
+i"AbstractTrackable.h"
+
+N/Users/aubrey/pucker/Classes/Puck.m
+c000000004BAD018D00000000000005AD
+t1269629325
+s1453
+i"Puck.h"
+
+N/Users/aubrey/pucker/GameModelTest.h
+c000000004BAE30F000000000000003A4
+t1269706992
+s932
+i<SenTestingKit/SenTestingKit.h>
+i<UIKit/UIKit.h>
+
+N/Users/aubrey/pucker/GameModelTest.m
+c000000004BAE34F60000000000000526
+t1269708022
+s1318
+i"GameModelTest.h"
+i"GameModel.h"
+i"Puck.h"
+
+N/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest
+t1269708219
+s102
+
+N/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest.dSYM
+t2
+s0
+
+N/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/Info.plist
+t1269708219
+s471
+
+N/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests
+t2
+s0
+
+N/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModel.o
+t2
+s0
+
+N/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModelTest.o
+t1269708219
+s12824
+
+N/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Puck.o
+t2
+s0
+
+N/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/UnitTests.LinkFileList
+c000000004BAE36470000000000000072
+t1269708359
+s114
+
+N/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Script-7E1F3565115E63C600567C7F.sh
+c000000004BAE35BB0000000000000062
+t1269708219
+s98
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve
+c000000004BABCB0A0000000000000110
+t1269549834
+s272
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/NSException_SenTestFailure.h
+c000000004B9F30040000000000000E17
+t1268723716
+s3607
+i<Foundation/Foundation.h>
+i"SenTestDefines.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenInterfaceTestCase.h
+c000000004B9F300400000000000006F3
+t1268723716
+s1779
+i<Foundation/Foundation.h>
+i"SenTestCase.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTest.h
+c000000004B9F3004000000000000084C
+t1268723716
+s2124
+i<Foundation/Foundation.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase.h
+c000000004B9F30040000000000001651
+t1268723716
+s5713
+i<Foundation/NSObject.h>
+i"SenTest.h"
+i"SenTestCase_Macros.h"
+i"NSException_SenTestFailure.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCaseRun.h
+c000000004B9F30040000000000000844
+t1268723716
+s2116
+i"SenTestRun.h"
+i"SenTestDefines.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestCase_Macros.h
+c000000004B9F30040000000000007770
+t1268723716
+s30576
+i"SenTestingUtilities.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDefines.h
+c000000004B9F30040000000000000947
+t1268723716
+s2375
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestDistributedNotifier.h
+c000000004B9F300400000000000006E2
+t1268723716
+s1762
+i<Foundation/Foundation.h>
+i"SenTestObserver.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestLog.h
+c000000004B9F300400000000000006C2
+t1268723716
+s1730
+i<Foundation/Foundation.h>
+i"SenTestObserver.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestObserver.h
+c000000004B9F300400000000000008A7
+t1268723716
+s2215
+i<Foundation/Foundation.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestProbe.h
+c000000004B9F3004000000000000094A
+t1268723716
+s2378
+i<Foundation/Foundation.h>
+i"SenTestDefines.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestRun.h
+c000000004B9F30040000000000000A6B
+t1268723716
+s2667
+i<Foundation/NSObject.h>
+i"SenTest.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuite.h
+c000000004B9F30040000000000000CB3
+t1268723716
+s3251
+i"SenTest.h"
+i"SenTestCase.h"
+i<Foundation/Foundation.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestSuiteRun.h
+c000000004B9F300400000000000007B6
+t1268723716
+s1974
+i"SenTestRun.h"
+i"SenTestDefines.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingKit.h
+c000000004B9F300400000000000007E1
+t1268723716
+s2017
+i"SenTestDefines.h"
+i"SenTest.h"
+i"SenTestCase.h"
+i"SenTestSuite.h"
+i"SenTestObserver.h"
+i"NSException_SenTestFailure.h"
+i"SenTestLog.h"
+i"SenTestDistributedNotifier.h"
+i"SenTestRun.h"
+i"SenTestSuiteRun.h"
+i"SenTestCaseRun.h"
+i"SenInterfaceTestCase.h"
+i"SenTestProbe.h"
+i"SenTestingUtilities.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks/SenTestingKit.framework/Headers/SenTestingUtilities.h
+c000000004B9F30040000000000000C37
+t1268723716
+s3127
+i<Foundation/Foundation.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFArray.h
+c000000004B9F1CC20000000000007AC8
+t1268718786
+s31432
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAttributedString.h
+c000000004B9F1CC20000000000002FFF
+t1268718786
+s12287
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBag.h
+c000000004B9F1CC200000000000009FF
+t1268718786
+s2559
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h
+c000000004B9F1CC20000000000003853
+t1268718786
+s14419
+i<windows.h>
+i<winsock2.h>
+i<stdint.h>
+i<stdbool.h>
+i<stdint.h>
+i<stdbool.h>
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+i<MacTypes.h>
+i<CoreServices/../Frameworks/CarbonCore.framework/Headers/MacTypes.h>
+i<MacTypes.h>
+i<libkern/OSTypes.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBinaryHeap.h
+c000000004B9F1CC200000000000034DE
+t1268718786
+s13534
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBitVector.h
+c000000004B9F1CC200000000000007BE
+t1268718786
+s1982
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBundle.h
+c000000004B9F1CC20000000000003DFE
+t1268718786
+s15870
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFError.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFURL.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFByteOrder.h
+c000000004B9F1CC20000000000001983
+t1268718786
+s6531
+i<CoreFoundation/CFBase.h>
+i<libkern/OSByteOrder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCalendar.h
+c000000004B9F1CC2000000000000102A
+t1268718786
+s4138
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFLocale.h>
+i<CoreFoundation/CFDate.h>
+i<CoreFoundation/CFTimeZone.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCharacterSet.h
+c000000004B9F1CC20000000000004925
+t1268718786
+s18725
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFData.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFData.h
+c000000004B9F1CC200000000000006CB
+t1268718786
+s1739
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDate.h
+c000000004B9F1CC20000000000000A09
+t1268718786
+s2569
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDateFormatter.h
+c000000004B9F1CC2000000000000214B
+t1268718786
+s8523
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFDate.h>
+i<CoreFoundation/CFLocale.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDictionary.h
+c000000004B9F1CC200000000000080D6
+t1268718786
+s32982
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFError.h
+c000000004B9F1CC20000000000003340
+t1268718786
+s13120
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileDescriptor.h
+c000000004B9F1CC20000000000000744
+t1268718786
+s1860
+i<CoreFoundation/CFRunLoop.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFLocale.h
+c000000004B9F1CC200000000000020FC
+t1268718786
+s8444
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMachPort.h
+c000000004B9F1CC200000000000006AD
+t1268718786
+s1709
+i<CoreFoundation/CFRunLoop.h>
+i<mach/port.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFMessagePort.h
+c000000004B9F1CC20000000000000A57
+t1268718786
+s2647
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFRunLoop.h>
+i<CoreFoundation/CFData.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNotificationCenter.h
+c000000004B9F1CC2000000000000113F
+t1268718786
+s4415
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumber.h
+c000000004B9F1CC20000000000000EAB
+t1268718786
+s3755
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFNumberFormatter.h
+c000000004B9F1CC2000000000000268E
+t1268718786
+s9870
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFNumber.h>
+i<CoreFoundation/CFLocale.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugIn.h
+c000000004B9F1CC2000000000000146A
+t1268718786
+s5226
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFBundle.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFURL.h>
+i<CoreFoundation/CFUUID.h>
+i<CoreFoundation/CFPlugInCOM.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h
+c000000004B9F1CC30000000000000E87
+t1268718787
+s3719
+i<CoreFoundation/CFPlugIn.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPreferences.h
+c000000004B9F1CC30000000000001553
+t1268718787
+s5459
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPropertyList.h
+c000000004B9F1CC30000000000001163
+t1268718787
+s4451
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFStream.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFRunLoop.h
+c000000004B9F1CC30000000000001B95
+t1268718787
+s7061
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDate.h>
+i<CoreFoundation/CFString.h>
+i<mach/port.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSet.h
+c000000004B9F1CC300000000000051F2
+t1268718787
+s20978
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSocket.h
+c000000004B9F1CC30000000000002B62
+t1268718787
+s11106
+i<winsock2.h>
+i<CoreFoundation/CFRunLoop.h>
+i<CoreFoundation/CFData.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStream.h
+c000000004B9F1CC30000000000002F2E
+t1268718787
+s12078
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFURL.h>
+i<CoreFoundation/CFRunLoop.h>
+i<CoreFoundation/CFSocket.h>
+i<CoreFoundation/CFError.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFString.h
+c000000004B9F1CC3000000000000A9BF
+t1268718787
+s43455
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFCharacterSet.h>
+i<CoreFoundation/CFLocale.h>
+i<stdarg.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringEncodingExt.h
+c000000004B9F1CC300000000000025AA
+t1268718787
+s9642
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringTokenizer.h
+c000000004B9F1CC20000000000003179
+t1268718786
+s12665
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFLocale.h>
+i<CoreFoundation/CFString.h>
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTimeZone.h
+c000000004B9F1CC300000000000009A2
+t1268718787
+s2466
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFDate.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFTree.h
+c000000004B9F1CC30000000000003590
+t1268718787
+s13712
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
+c000000004B9F1CC30000000000004980
+t1268718787
+s18816
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURLAccess.h
+c000000004B9F1CC300000000000011D0
+t1268718787
+s4560
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFURL.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CFUUID.h
+c000000004B9F1CC30000000000000983
+t1268718787
+s2435
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004B9F1CC30000000000000A99
+t1268718787
+s2713
+i<sys/types.h>
+i<stdarg.h>
+i<assert.h>
+i<ctype.h>
+i<errno.h>
+i<float.h>
+i<limits.h>
+i<locale.h>
+i<math.h>
+i<setjmp.h>
+i<signal.h>
+i<stddef.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<time.h>
+i<inttypes.h>
+i<stdbool.h>
+i<stdint.h>
+i<CoreFoundation/CFBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFBag.h>
+i<CoreFoundation/CFBinaryHeap.h>
+i<CoreFoundation/CFBitVector.h>
+i<CoreFoundation/CFBundle.h>
+i<CoreFoundation/CFByteOrder.h>
+i<CoreFoundation/CFCalendar.h>
+i<CoreFoundation/CFCharacterSet.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFDate.h>
+i<CoreFoundation/CFDateFormatter.h>
+i<CoreFoundation/CFDictionary.h>
+i<CoreFoundation/CFError.h>
+i<CoreFoundation/CFLocale.h>
+i<CoreFoundation/CFMessagePort.h>
+i<CoreFoundation/CFNumber.h>
+i<CoreFoundation/CFNumberFormatter.h>
+i<CoreFoundation/CFPlugIn.h>
+i<CoreFoundation/CFPreferences.h>
+i<CoreFoundation/CFPropertyList.h>
+i<CoreFoundation/CFRunLoop.h>
+i<CoreFoundation/CFSet.h>
+i<CoreFoundation/CFSocket.h>
+i<CoreFoundation/CFStream.h>
+i<CoreFoundation/CFString.h>
+i<CoreFoundation/CFStringEncodingExt.h>
+i<CoreFoundation/CFTimeZone.h>
+i<CoreFoundation/CFTree.h>
+i<CoreFoundation/CFURL.h>
+i<CoreFoundation/CFURLAccess.h>
+i<CoreFoundation/CFUUID.h>
+i<CoreFoundation/CFAttributedString.h>
+i<CoreFoundation/CFNotificationCenter.h>
+i<CoreFoundation/CFFileDescriptor.h>
+i<CoreFoundation/CFMachPort.h>
+i<CoreFoundation/CFStringTokenizer.h>
+i<CoreFoundation/CFUserNotification.h>
+i<CoreFoundation/CFXMLNode.h>
+i<CoreFoundation/CFXMLParser.h>
+i<CoreFoundation/CFWindowsMessageQueue.h>
+i<CoreFoundation/CFWindowsNamedPipe.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B9F1DB3000000000026F020
+t1268719027
+s2551840
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h
+c000000004B9F1DB3000000000000138D
+t1268719027
+s5005
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h
+c000000004B9F1DB30000000000000A18
+t1268719027
+s2584
+i<stdbool.h>
+i<stddef.h>
+i<float.h>
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBitmapContext.h
+c000000004B9F1DB3000000000000106D
+t1268719027
+s4205
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGContext.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGColor.h
+c000000004B9F1DB300000000000011D3
+t1268719027
+s4563
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGColorSpace.h>
+i<CoreGraphics/CGPattern.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGColorSpace.h
+c000000004B9F1DB30000000000002789
+t1268719027
+s10121
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGDataProvider.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGContext.h
+c000000004B9F1DB30000000000009D34
+t1268719027
+s40244
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGAffineTransform.h>
+i<CoreGraphics/CGColor.h>
+i<CoreGraphics/CGColorSpace.h>
+i<CoreGraphics/CGFont.h>
+i<CoreGraphics/CGGradient.h>
+i<CoreGraphics/CGImage.h>
+i<CoreGraphics/CGPath.h>
+i<CoreGraphics/CGPattern.h>
+i<CoreGraphics/CGPDFDocument.h>
+i<CoreGraphics/CGShading.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDataConsumer.h
+c000000004B9F1DB3000000000000090D
+t1268719027
+s2317
+i<CoreGraphics/CGBase.h>
+i<CoreFoundation/CFURL.h>
+i<stddef.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGDataProvider.h
+c000000004B9F1DB3000000000000247B
+t1268719027
+s9339
+i<CoreGraphics/CGBase.h>
+i<CoreFoundation/CFURL.h>
+i<stddef.h>
+i<unistd.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGError.h
+c000000004B9F1DB30000000000000A2A
+t1268719027
+s2602
+i<CoreGraphics/CGBase.h>
+i<stdint.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGFont.h
+c000000004B9F1DB30000000000002C62
+t1268719027
+s11362
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGDataProvider.h>
+i<CoreGraphics/CGGeometry.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGFunction.h
+c000000004B9F1DB30000000000000EE0
+t1268719027
+s3808
+i<CoreGraphics/CGBase.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004B9F1DB30000000000002384
+t1268719027
+s9092
+i<CoreGraphics/CGBase.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGradient.h
+c000000004B9F1DB30000000000000F34
+t1268719027
+s3892
+i<stdint.h>
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGColorSpace.h>
+i<CoreGraphics/CGContext.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004B9F1DB30000000000002650
+t1268719027
+s9808
+i<CoreGraphics/CGColorSpace.h>
+i<CoreGraphics/CGDataProvider.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGLayer.h
+c000000004B9F1DB3000000000000089C
+t1268719027
+s2204
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGContext.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFArray.h
+c000000004B9F1DB30000000000000D27
+t1268719027
+s3367
+i<CoreGraphics/CGPDFDictionary.h>
+i<CoreGraphics/CGPDFObject.h>
+i<CoreGraphics/CGPDFStream.h>
+i<CoreGraphics/CGPDFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContentStream.h
+c000000004B9F1DB30000000000000636
+t1268719027
+s1590
+i<CoreGraphics/CGPDFPage.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h
+c000000004B9F1DB3000000000000301A
+t1268719027
+s12314
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGContext.h>
+i<CoreGraphics/CGDataConsumer.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFDictionary.h
+c000000004B9F1DB30000000000000FF0
+t1268719027
+s4080
+i<CoreGraphics/CGPDFArray.h>
+i<CoreGraphics/CGPDFObject.h>
+i<CoreGraphics/CGPDFStream.h>
+i<CoreGraphics/CGPDFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFDocument.h
+c000000004B9F1DB300000000000016FC
+t1268719027
+s5884
+i<CoreGraphics/CGDataProvider.h>
+i<CoreGraphics/CGGeometry.h>
+i<CoreGraphics/CGPDFPage.h>
+i<CoreFoundation/CFURL.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFObject.h
+c000000004B9F1DB30000000000000638
+t1268719027
+s1592
+i<CoreGraphics/CGBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFOperatorTable.h
+c000000004B9F1DB3000000000000046E
+t1268719027
+s1134
+i<CoreGraphics/CGPDFScanner.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFPage.h
+c000000004B9F1DB30000000000000BB7
+t1268719027
+s2999
+i<CoreGraphics/CGAffineTransform.h>
+i<CoreGraphics/CGPDFDictionary.h>
+i<CoreGraphics/CGPDFDocument.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFScanner.h
+c000000004B9F1DB30000000000000F09
+t1268719027
+s3849
+i<CoreGraphics/CGPDFContentStream.h>
+i<CoreGraphics/CGPDFOperatorTable.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFStream.h
+c000000004B9F1DB30000000000000346
+t1268719027
+s838
+i<CoreGraphics/CGPDFDictionary.h>
+i<CoreGraphics/CGPDFStream.h>
+i<CoreFoundation/CFData.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFString.h
+c000000004B9F1DB300000000000004BB
+t1268719027
+s1211
+i<CoreGraphics/CGBase.h>
+i<CoreFoundation/CFDate.h>
+i<CoreFoundation/CFString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPath.h
+c000000004B9F1DB3000000000000255F
+t1268719027
+s9567
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGAffineTransform.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPattern.h
+c000000004B9F1DB30000000000000B13
+t1268719027
+s2835
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGContext.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CGShading.h
+c000000004B9F1DB30000000000000D6F
+t1268719027
+s3439
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGColorSpace.h>
+i<CoreGraphics/CGFunction.h>
+i<CoreGraphics/CGGeometry.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004B9F1DB300000000000004FE
+t1268719027
+s1278
+i<CoreGraphics/CGBase.h>
+i<CoreGraphics/CGAffineTransform.h>
+i<CoreGraphics/CGBitmapContext.h>
+i<CoreGraphics/CGColor.h>
+i<CoreGraphics/CGColorSpace.h>
+i<CoreGraphics/CGContext.h>
+i<CoreGraphics/CGDataConsumer.h>
+i<CoreGraphics/CGDataProvider.h>
+i<CoreGraphics/CGError.h>
+i<CoreGraphics/CGFont.h>
+i<CoreGraphics/CGFunction.h>
+i<CoreGraphics/CGGeometry.h>
+i<CoreGraphics/CGGradient.h>
+i<CoreGraphics/CGImage.h>
+i<CoreGraphics/CGLayer.h>
+i<CoreGraphics/CGPDFArray.h>
+i<CoreGraphics/CGPDFContentStream.h>
+i<CoreGraphics/CGPDFContext.h>
+i<CoreGraphics/CGPDFDictionary.h>
+i<CoreGraphics/CGPDFDocument.h>
+i<CoreGraphics/CGPDFObject.h>
+i<CoreGraphics/CGPDFOperatorTable.h>
+i<CoreGraphics/CGPDFPage.h>
+i<CoreGraphics/CGPDFScanner.h>
+i<CoreGraphics/CGPDFStream.h>
+i<CoreGraphics/CGPDFString.h>
+i<CoreGraphics/CGPath.h>
+i<CoreGraphics/CGPattern.h>
+i<CoreGraphics/CGShading.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+i<CoreFoundation/CoreFoundation.h>
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSAutoreleasePool.h>
+i<Foundation/NSBundle.h>
+i<Foundation/NSByteOrder.h>
+i<Foundation/NSCalendar.h>
+i<Foundation/NSCharacterSet.h>
+i<Foundation/NSCoder.h>
+i<Foundation/NSData.h>
+i<Foundation/NSDate.h>
+i<Foundation/NSDateFormatter.h>
+i<Foundation/NSDecimal.h>
+i<Foundation/NSDecimalNumber.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSEnumerator.h>
+i<Foundation/NSError.h>
+i<Foundation/NSException.h>
+i<Foundation/NSFileHandle.h>
+i<Foundation/NSFileManager.h>
+i<Foundation/NSFormatter.h>
+i<Foundation/NSIndexPath.h>
+i<Foundation/NSIndexSet.h>
+i<Foundation/NSInvocation.h>
+i<Foundation/NSKeyValueCoding.h>
+i<Foundation/NSKeyValueObserving.h>
+i<Foundation/NSKeyedArchiver.h>
+i<Foundation/NSLocale.h>
+i<Foundation/NSLock.h>
+i<Foundation/NSMethodSignature.h>
+i<Foundation/NSNotification.h>
+i<Foundation/NSNotificationQueue.h>
+i<Foundation/NSNull.h>
+i<Foundation/NSNumberFormatter.h>
+i<Foundation/NSObject.h>
+i<Foundation/NSOperation.h>
+i<Foundation/NSPathUtilities.h>
+i<Foundation/NSPort.h>
+i<Foundation/NSProcessInfo.h>
+i<Foundation/NSPropertyList.h>
+i<Foundation/NSProxy.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSRunLoop.h>
+i<Foundation/NSScanner.h>
+i<Foundation/NSSet.h>
+i<Foundation/NSSortDescriptor.h>
+i<Foundation/NSStream.h>
+i<Foundation/NSString.h>
+i<Foundation/NSThread.h>
+i<Foundation/NSTimeZone.h>
+i<Foundation/NSTimer.h>
+i<Foundation/NSURL.h>
+i<Foundation/NSUserDefaults.h>
+i<Foundation/NSValue.h>
+i<Foundation/NSZone.h>
+i<Foundation/NSPredicate.h>
+i<Foundation/NSExpression.h>
+i<Foundation/NSComparisonPredicate.h>
+i<Foundation/NSCompoundPredicate.h>
+i<Foundation/NSUndoManager.h>
+i<Foundation/NSValueTransformer.h>
+i<Foundation/FoundationErrors.h>
+i<Foundation/NSAttributedString.h>
+i<Foundation/NSHTTPCookie.h>
+i<Foundation/NSHTTPCookieStorage.h>
+i<Foundation/NSNetServices.h>
+i<Foundation/NSURLAuthenticationChallenge.h>
+i<Foundation/NSURLCache.h>
+i<Foundation/NSURLConnection.h>
+i<Foundation/NSURLCredential.h>
+i<Foundation/NSURLCredentialStorage.h>
+i<Foundation/NSURLError.h>
+i<Foundation/NSURLProtectionSpace.h>
+i<Foundation/NSURLProtocol.h>
+i<Foundation/NSURLRequest.h>
+i<Foundation/NSURLResponse.h>
+i<Foundation/NSXMLParser.h>
+i<Foundation/NSConnection.h>
+i<Foundation/NSDistantObject.h>
+i<Foundation/NSDistributedNotificationCenter.h>
+i<Foundation/NSPortCoder.h>
+i<Foundation/NSPortMessage.h>
+i<Foundation/NSPortNameServer.h>
+i<Foundation/NSProtocolChecker.h>
+i<Foundation/NSTask.h>
+i<Foundation/NSXMLDTD.h>
+i<Foundation/NSXMLDTDNode.h>
+i<Foundation/NSXMLDocument.h>
+i<Foundation/NSXMLElement.h>
+i<Foundation/NSXMLNode.h>
+i<Foundation/NSXMLNodeOptions.h>
+i<Foundation/NSAffineTransform.h>
+i<Foundation/NSAppleEventDescriptor.h>
+i<Foundation/NSAppleEventManager.h>
+i<Foundation/NSAppleScript.h>
+i<Foundation/NSArchiver.h>
+i<Foundation/NSCalendarDate.h>
+i<Foundation/NSClassDescription.h>
+i<Foundation/NSDistributedLock.h>
+i<Foundation/NSGarbageCollector.h>
+i<Foundation/NSGeometry.h>
+i<Foundation/NSHFSFileTypes.h>
+i<Foundation/NSHashTable.h>
+i<Foundation/NSHost.h>
+i<Foundation/NSMapTable.h>
+i<Foundation/NSMetadata.h>
+i<Foundation/NSObjectScripting.h>
+i<Foundation/NSPointerArray.h>
+i<Foundation/NSPointerFunctions.h>
+i<Foundation/NSScriptClassDescription.h>
+i<Foundation/NSScriptCoercionHandler.h>
+i<Foundation/NSScriptCommand.h>
+i<Foundation/NSScriptCommandDescription.h>
+i<Foundation/NSScriptExecutionContext.h>
+i<Foundation/NSScriptKeyValueCoding.h>
+i<Foundation/NSScriptObjectSpecifiers.h>
+i<Foundation/NSScriptStandardSuiteCommands.h>
+i<Foundation/NSScriptSuiteRegistry.h>
+i<Foundation/NSScriptWhoseTests.h>
+i<Foundation/NSSpellServer.h>
+i<Foundation/NSURLDownload.h>
+i<Foundation/NSURLHandle.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/FoundationErrors.h
+c000000004B9F1DD60000000000000F87
+t1268719062
+s3975
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
+c000000004B9F1DD600000000000011E4
+t1268719062
+s4580
+i<Foundation/NSObject.h>
+i<Foundation/NSEnumerator.h>
+i<Foundation/NSRange.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSAttributedString.h
+c000000004B9F1DD7000000000000088C
+t1268719063
+s2188
+i<Foundation/NSString.h>
+i<Foundation/NSDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSAutoreleasePool.h
+c000000004B9F1DD60000000000000198
+t1268719062
+s408
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSBundle.h
+c000000004B9F1DD60000000000001224
+t1268719062
+s4644
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSByteOrder.h
+c000000004B9F1DD60000000000001655
+t1268719062
+s5717
+i<Foundation/NSObjCRuntime.h>
+i<CoreFoundation/CFByteOrder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSCalendar.h
+c000000004B9F1DD60000000000000F86
+t1268719062
+s3974
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSDate.h>
+i<CoreFoundation/CFCalendar.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSCharacterSet.h
+c000000004B9F1DD600000000000007EA
+t1268719062
+s2026
+i<CoreFoundation/CFCharacterSet.h>
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+i<Foundation/NSString.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSCoder.h
+c000000004B9F1DD60000000000000FA4
+t1268719062
+s4004
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSComparisonPredicate.h
+c000000004B9F1DD70000000000000DE4
+t1268719063
+s3556
+i<Foundation/NSPredicate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSCompoundPredicate.h
+c000000004B9F1DD7000000000000044C
+t1268719063
+s1100
+i<Foundation/NSPredicate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSData.h
+c000000004B9F1DD60000000000000FA8
+t1268719062
+s4008
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSDate.h
+c000000004B9F1DD60000000000000546
+t1268719062
+s1350
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSDateFormatter.h
+c000000004B9F1DD600000000000016DE
+t1268719062
+s5854
+i<Foundation/NSFormatter.h>
+i<CoreFoundation/CFDateFormatter.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSDecimal.h
+c000000004B9F1DD60000000000000EB7
+t1268719062
+s3767
+i<limits.h>
+i<Foundation/NSObjCRuntime.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSDecimalNumber.h
+c000000004B9F1DD60000000000001601
+t1268719062
+s5633
+i<Foundation/NSValue.h>
+i<Foundation/NSScanner.h>
+i<Foundation/NSDecimal.h>
+i<Foundation/NSDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSDictionary.h
+c000000004B9F1DD60000000000000B36
+t1268719062
+s2870
+i<Foundation/NSObject.h>
+i<Foundation/NSEnumerator.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSEnumerator.h
+c000000004B9F1DD600000000000003CA
+t1268719062
+s970
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSError.h
+c000000004B9F1DD60000000000001C2F
+t1268719062
+s7215
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSException.h
+c000000004B9F1DD60000000000001688
+t1268719062
+s5768
+i<Foundation/NSObject.h>
+i<stdarg.h>
+i<setjmp.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSExpression.h
+c000000004B9F1DD70000000000002437
+t1268719063
+s9271
+i<Foundation/NSObject.h>
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSFileHandle.h
+c000000004B9F1DD6000000000000096B
+t1268719062
+s2411
+i<Foundation/NSObject.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSRange.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h
+c000000004B9F1DD60000000000004867
+t1268719062
+s18535
+i<Foundation/NSObject.h>
+i<Foundation/NSEnumerator.h>
+i<Foundation/NSDictionary.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSFormatter.h
+c000000004B9F1DD600000000000004D1
+t1268719062
+s1233
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSHTTPCookie.h
+c000000004B9F1DD70000000000003314
+t1268719063
+s13076
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSHTTPCookieStorage.h
+c000000004B9F1DD700000000000011F7
+t1268719063
+s4599
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSIndexPath.h
+c000000004B9F1DD60000000000000415
+t1268719062
+s1045
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSIndexSet.h
+c000000004B9F1DD60000000000000FE0
+t1268719062
+s4064
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSInvocation.h
+c000000004B9F1DD60000000000000866
+t1268719062
+s2150
+i<Foundation/NSObject.h>
+i<stdbool.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSKeyValueCoding.h
+c000000004B9F1DD60000000000005964
+t1268719062
+s22884
+i<Foundation/NSArray.h>
+i<Foundation/NSDictionary.h>
+i<Foundation/NSSet.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSKeyValueObserving.h
+c000000004B9F1DD60000000000004751
+t1268719062
+s18257
+i<Foundation/NSArray.h>
+i<Foundation/NSSet.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSKeyedArchiver.h
+c000000004B9F1DD600000000000023C4
+t1268719062
+s9156
+i<Foundation/NSCoder.h>
+i<Foundation/NSPropertyList.h>
+i<Foundation/NSGeometry.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSLocale.h
+c000000004B9F1DD60000000000000EAA
+t1268719062
+s3754
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSLock.h
+c000000004B9F1DD60000000000000653
+t1268719062
+s1619
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSMethodSignature.h
+c000000004B9F1DD600000000000001F0
+t1268719062
+s496
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSNetServices.h
+c000000004B9F1DD7000000000000445B
+t1268719063
+s17499
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h
+c000000004B9F1DD600000000000004CE
+t1268719062
+s1230
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSNotificationQueue.h
+c000000004B9F1DD6000000000000044B
+t1268719062
+s1099
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSNull.h
+c000000004B9F1DD600000000000000B8
+t1268719062
+s184
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSNumberFormatter.h
+c000000004B9F1DD600000000000024BD
+t1268719062
+s9405
+i<Foundation/NSFormatter.h>
+i<CoreFoundation/CFNumberFormatter.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004B9F1DD60000000000001998
+t1268719062
+s6552
+i<objc/objc.h>
+i<stdarg.h>
+i<stdint.h>
+i<limits.h>
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004B9F1DD60000000000000D1D
+t1268719062
+s3357
+i<Foundation/NSObjCRuntime.h>
+i<Foundation/NSZone.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSOperation.h
+c000000004B9F1DD60000000000000741
+t1268719062
+s1857
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSPathUtilities.h
+c000000004B9F1DD60000000000000F88
+t1268719062
+s3976
+i<Foundation/NSString.h>
+i<Foundation/NSArray.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSPort.h
+c000000004B9F1DD600000000000015DA
+t1268719062
+s5594
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSPredicate.h
+c000000004B9F1DD70000000000000943
+t1268719063
+s2371
+i<Foundation/NSObject.h>
+i<Foundation/NSArray.h>
+i<Foundation/NSSet.h>
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSProcessInfo.h
+c000000004B9F1DD60000000000000521
+t1268719062
+s1313
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSPropertyList.h
+c000000004B9F1DD600000000000004E0
+t1268719062
+s1248
+i<Foundation/NSObject.h>
+i<CoreFoundation/CFPropertyList.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSProxy.h
+c000000004B9F1DD600000000000001EB
+t1268719062
+s491
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004B9F1DD6000000000000049D
+t1268719062
+s1181
+i<Foundation/NSValue.h>
+i<Foundation/NSObjCRuntime.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSRunLoop.h
+c000000004B9F1DD600000000000008B6
+t1268719062
+s2230
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
+i<CoreFoundation/CFRunLoop.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSScanner.h
+c000000004B9F1DD6000000000000065D
+t1268719062
+s1629
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSSet.h
+c000000004B9F1DD60000000000000A70
+t1268719062
+s2672
+i<Foundation/NSObject.h>
+i<Foundation/NSEnumerator.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSSortDescriptor.h
+c000000004B9F1DD600000000000004EB
+t1268719062
+s1259
+i<Foundation/NSArray.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h
+c000000004B9F1DD60000000000001CCD
+t1268719062
+s7373
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
+c000000004B9F1DD600000000000058DB
+t1268719062
+s22747
+i<limits.h>
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+i<stdarg.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSThread.h
+c000000004B9F1DD60000000000000920
+t1268719062
+s2336
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSTimeZone.h
+c000000004B9F1DD600000000000009BA
+t1268719062
+s2490
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSTimer.h
+c000000004B9F1DD7000000000000046C
+t1268719063
+s1132
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURL.h
+c000000004B9F1DD70000000000001791
+t1268719063
+s6033
+i<Foundation/NSObject.h>
+i<Foundation/NSString.h>
+i<Foundation/NSURLHandle.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLAuthenticationChallenge.h
+c000000004B9F1DD70000000000001475
+t1268719063
+s5237
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLCache.h
+c000000004B9F1DD70000000000002634
+t1268719063
+s9780
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLConnection.h
+c000000004B9F1DD70000000000005CA3
+t1268719063
+s23715
+i<AvailabilityMacros.h>
+i<Availability.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredential.h
+c000000004B9F1DD70000000000001A4F
+t1268719063
+s6735
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+i<Security/Security.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLCredentialStorage.h
+c000000004B9F1DD70000000000000F56
+t1268719063
+s3926
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLError.h
+c000000004B9F1DD70000000000000D8C
+t1268719063
+s3468
+i<AvailabilityMacros.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLProtectionSpace.h
+c000000004B9F1DD70000000000001D08
+t1268719063
+s7432
+i<AvailabilityMacros.h>
+i<Availability.h>
+i<Foundation/NSObject.h>
+i<Security/Security.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLProtocol.h
+c000000004B9F1DD7000000000000385F
+t1268719063
+s14431
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+i<Foundation/NSURLCache.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLRequest.h
+c000000004B9F1DD70000000000004C9C
+t1268719063
+s19612
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+i<Foundation/NSDate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h
+c000000004B9F1DD7000000000000174B
+t1268719063
+s5963
+i<AvailabilityMacros.h>
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSUndoManager.h
+c000000004B9F1DD7000000000000144B
+t1268719063
+s5195
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSUserDefaults.h
+c000000004B9F1DD70000000000001535
+t1268719063
+s5429
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h
+c000000004B9F1DD70000000000000BDA
+t1268719063
+s3034
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSValueTransformer.h
+c000000004B9F1DD700000000000008FB
+t1268719063
+s2299
+i<Foundation/NSObject.h>
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSXMLParser.h
+c000000004B9F1DD70000000000002CD0
+t1268719063
+s11472
+i<Foundation/NSObject.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Foundation.framework/Headers/NSZone.h
+c000000004B9F1DD70000000000000BD2
+t1268719063
+s3026
+i<Foundation/NSObjCRuntime.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B9F27B9000000000011BF20
+t1268721593
+s1163040
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecBase.h
+c000000004B9F1D060000000000000C5A
+t1268718854
+s3162
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecCertificate.h
+c000000004B9F1D060000000000000D0D
+t1268718854
+s3341
+i<Security/SecBase.h>
+i<CoreFoundation/CFData.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecIdentity.h
+c000000004B9F1D060000000000000A7D
+t1268718854
+s2685
+i<Security/SecBase.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecImportExport.h
+c000000004B9F1D070000000000000F1D
+t1268718855
+s3869
+i<Security/SecBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFData.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecItem.h
+c000000004B9F1D06000000000000A780
+t1268718854
+s42880
+i<Security/SecBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDictionary.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecKey.h
+c000000004B9F1D060000000000002D78
+t1268718854
+s11640
+i<Security/SecBase.h>
+i<CoreFoundation/CFDictionary.h>
+i<sys/types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecPolicy.h
+c000000004B9F1D060000000000000A66
+t1268718854
+s2662
+i<Security/SecBase.h>
+i<CoreFoundation/CFBase.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecRandom.h
+c000000004B9F1D07000000000000083A
+t1268718855
+s2106
+i<Security/SecBase.h>
+i<stdint.h>
+i<sys/types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/SecTrust.h
+c000000004B9F1D0600000000000021D7
+t1268718854
+s8663
+i<Security/SecBase.h>
+i<CoreFoundation/CFArray.h>
+i<CoreFoundation/CFDate.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/Security.framework/Headers/Security.h
+c000000004B9F1D0600000000000004F5
+t1268718854
+s1269
+i<Security/SecBase.h>
+i<Security/SecCertificate.h>
+i<Security/SecIdentity.h>
+i<Security/SecImportExport.h>
+i<Security/SecItem.h>
+i<Security/SecKey.h>
+i<Security/SecPolicy.h>
+i<Security/SecRandom.h>
+i<Security/SecTrust.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h
+c000000004B9F30E700000000000004E1
+t1268723943
+s1249
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h
+c000000004B9F30E80000000000001495
+t1268723944
+s5269
+i<CoreGraphics/CoreGraphics.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIAccessibilityConstants.h>
+i<UIKit/UIAccessibilityElement.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityConstants.h
+c000000004B9F30E80000000000000D98
+t1268723944
+s3480
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityElement.h
+c000000004B9F30E800000000000004CC
+t1268723944
+s1228
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIAccessibilityConstants.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h
+c000000004B9F30E8000000000000043F
+t1268723944
+s1087
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIAlert.h
+c000000004B9F30E70000000000002D83
+t1268723943
+s11651
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UITextField.h>
+i<UIKit/UIView.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h
+c000000004B9F30E600000000000032C4
+t1268723942
+s12996
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIResponder.h>
+i<UIKit/UIInterface.h>
+i<UIKit/UIDevice.h>
+i<UIKit/UIAlert.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIBarButtonItem.h
+c000000004B9F30E80000000000000B27
+t1268723944
+s2855
+i<CoreGraphics/CoreGraphics.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIBarItem.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIBarItem.h
+c000000004B9F30E800000000000002B3
+t1268723944
+s691
+i<Foundation/Foundation.h>
+i<UIKit/UIGeometry.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIBezierPath.h
+c000000004B9F30E70000000000000DB3
+t1268723943
+s3507
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h
+c000000004B9F30E800000000000017BB
+t1268723944
+s6075
+i<Foundation/Foundation.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIGeometry.h>
+i<UIKit/UIStringDrawing.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIColor.h
+c000000004B9F30E700000000000009E6
+t1268723943
+s2534
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIControl.h
+c000000004B9F30E70000000000001934
+t1268723943
+s6452
+i<Foundation/Foundation.h>
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIDataDetectors.h
+c000000004B9F30E80000000000000202
+t1268723944
+s514
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIDatePicker.h
+c000000004B9F30E80000000000000909
+t1268723944
+s2313
+i<Foundation/Foundation.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
+c000000004B9F30E700000000000011E5
+t1268723943
+s4581
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIDocumentInteractionController.h
+c000000004B9F30E90000000000001F1C
+t1268723945
+s7964
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIViewController.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIEvent.h
+c000000004B9F30E7000000000000044F
+t1268723943
+s1103
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIFont.h
+c000000004B9F30E70000000000000549
+t1268723943
+s1353
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIGeometry.h
+c000000004B9F30E70000000000000B61
+t1268723943
+s2913
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIGestureRecognizer.h
+c000000004B9F30E80000000000001EA7
+t1268723944
+s7847
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIGraphics.h
+c000000004B9F30E70000000000000816
+t1268723943
+s2070
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIImage.h
+c000000004B9F30E70000000000000CA2
+t1268723943
+s3234
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIColor.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h
+c000000004B9F30E80000000000001776
+t1268723944
+s6006
+i<Foundation/Foundation.h>
+i<UIKit/UINavigationController.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIImageView.h
+c000000004B9F30E600000000000006B1
+t1268723942
+s1713
+i<Foundation/Foundation.h>
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIInterface.h
+c000000004B9F30E70000000000000449
+t1268723943
+s1097
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIColor.h>
+i<UIKit/UIFont.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B9F30E7000000000000098F
+t1268723943
+s2447
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIAccelerometer.h>
+i<UIKit/UIAccessibility.h>
+i<UIKit/UIActivityIndicatorView.h>
+i<UIKit/UIAlert.h>
+i<UIKit/UIApplication.h>
+i<UIKit/UIBarButtonItem.h>
+i<UIKit/UIBarItem.h>
+i<UIKit/UIBezierPath.h>
+i<UIKit/UIButton.h>
+i<UIKit/UIColor.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIDataDetectors.h>
+i<UIKit/UIDatePicker.h>
+i<UIKit/UIDevice.h>
+i<UIKit/UIDocumentInteractionController.h>
+i<UIKit/UIEvent.h>
+i<UIKit/UIFont.h>
+i<UIKit/UIGeometry.h>
+i<UIKit/UIGestureRecognizer.h>
+i<UIKit/UIGraphics.h>
+i<UIKit/UIImage.h>
+i<UIKit/UIImagePickerController.h>
+i<UIKit/UIImageView.h>
+i<UIKit/UIInterface.h>
+i<UIKit/UILabel.h>
+i<UIKit/UILocalizedIndexedCollation.h>
+i<UIKit/UILongPressGestureRecognizer.h>
+i<UIKit/UIMenuController.h>
+i<UIKit/UINavigationBar.h>
+i<UIKit/UINavigationController.h>
+i<UIKit/UINibDeclarations.h>
+i<UIKit/UINibLoading.h>
+i<UIKit/UIPageControl.h>
+i<UIKit/UIPanGestureRecognizer.h>
+i<UIKit/UIPasteboard.h>
+i<UIKit/UIPickerView.h>
+i<UIKit/UIPinchGestureRecognizer.h>
+i<UIKit/UIPopoverController.h>
+i<UIKit/UIProgressView.h>
+i<UIKit/UIResponder.h>
+i<UIKit/UIRotationGestureRecognizer.h>
+i<UIKit/UIScreen.h>
+i<UIKit/UIScreenMode.h>
+i<UIKit/UIScrollView.h>
+i<UIKit/UISearchBar.h>
+i<UIKit/UISearchDisplayController.h>
+i<UIKit/UISegmentedControl.h>
+i<UIKit/UISlider.h>
+i<UIKit/UISplitViewController.h>
+i<UIKit/UIStringDrawing.h>
+i<UIKit/UISwipeGestureRecognizer.h>
+i<UIKit/UISwitch.h>
+i<UIKit/UITabBar.h>
+i<UIKit/UITabBarController.h>
+i<UIKit/UITabBarItem.h>
+i<UIKit/UITableView.h>
+i<UIKit/UITableViewCell.h>
+i<UIKit/UITableViewController.h>
+i<UIKit/UITapGestureRecognizer.h>
+i<UIKit/UITextField.h>
+i<UIKit/UITextInput.h>
+i<UIKit/UITextInputTraits.h>
+i<UIKit/UITextView.h>
+i<UIKit/UIToolbar.h>
+i<UIKit/UITouch.h>
+i<UIKit/UIVideoEditorController.h>
+i<UIKit/UIView.h>
+i<UIKit/UIViewController.h>
+i<UIKit/UIWebView.h>
+i<UIKit/UIWindow.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIKitDefines.h
+c000000004B9F30E7000000000000019B
+t1268723943
+s411
+i<Availability.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UILabel.h
+c000000004B9F30E60000000000000DCB
+t1268723942
+s3531
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIView.h>
+i<UIKit/UIStringDrawing.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UILocalizedIndexedCollation.h
+c000000004B9F30E80000000000000677
+t1268723944
+s1655
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UILongPressGestureRecognizer.h
+c000000004B9F30E80000000000000716
+t1268723944
+s1814
+i<Foundation/Foundation.h>
+i<UIKit/UIGestureRecognizer.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIMenuController.h
+c000000004B9F30E80000000000000849
+t1268723944
+s2121
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UINavigationBar.h
+c000000004B9F30E700000000000013D6
+t1268723943
+s5078
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIView.h>
+i<UIKit/UIInterface.h>
+i<UIKit/UIFont.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIButton.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UINavigationController.h
+c000000004B9F30E70000000000001971
+t1268723943
+s6513
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIViewController.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIInterface.h>
+i<UIKit/UIGeometry.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UINibDeclarations.h
+c000000004B9F30E800000000000000BC
+t1268723944
+s188
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UINibLoading.h
+c000000004B9F30E8000000000000025C
+t1268723944
+s604
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIPageControl.h
+c000000004B9F30E7000000000000055F
+t1268723943
+s1375
+i<Foundation/Foundation.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIPanGestureRecognizer.h
+c000000004B9F30E800000000000007EF
+t1268723944
+s2031
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIGestureRecognizer.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIPasteboard.h
+c000000004B9F30E80000000000000A87
+t1268723944
+s2695
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h
+c000000004B9F30E60000000000000FBC
+t1268723942
+s4028
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIPinchGestureRecognizer.h
+c000000004B9F30E80000000000000497
+t1268723944
+s1175
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIGestureRecognizer.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIPopoverController.h
+c000000004B9F30E9000000000000165B
+t1268723945
+s5723
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIApplication.h>
+i<UIKit/UIViewController.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIProgressView.h
+c000000004B9F30E8000000000000036A
+t1268723944
+s874
+i<Foundation/Foundation.h>
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIResponder.h
+c000000004B9F30E70000000000000B48
+t1268723943
+s2888
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIEvent.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIRotationGestureRecognizer.h
+c000000004B9F30E9000000000000042B
+t1268723945
+s1067
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIGestureRecognizer.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIScreen.h
+c000000004B9F30E70000000000000692
+t1268723943
+s1682
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIScreenMode.h
+c000000004B9F30E90000000000000234
+t1268723945
+s564
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIScrollView.h
+c000000004B9F30E7000000000000389F
+t1268723943
+s14495
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIView.h>
+i<UIKit/UIGeometry.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISearchBar.h
+c000000004B9F30E80000000000001559
+t1268723944
+s5465
+i<Foundation/Foundation.h>
+i<UIKit/UIView.h>
+i<UIKit/UIInterface.h>
+i<UIKit/UIGeometry.h>
+i<UIKit/UITextField.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISearchDisplayController.h
+c000000004B9F30E800000000000011B2
+t1268723944
+s4530
+i<Foundation/Foundation.h>
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UILabel.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISegmentedControl.h
+c000000004B9F30E70000000000000F6F
+t1268723943
+s3951
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISlider.h
+c000000004B9F30E60000000000000BE4
+t1268723942
+s3044
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISplitViewController.h
+c000000004B9F30E800000000000008D4
+t1268723944
+s2260
+i<UIKit/UIKit.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h
+c000000004B9F30E700000000000011DC
+t1268723943
+s4572
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISwipeGestureRecognizer.h
+c000000004B9F30E80000000000000884
+t1268723944
+s2180
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIGestureRecognizer.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UISwitch.h
+c000000004B9F30E8000000000000023D
+t1268723944
+s573
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITabBar.h
+c000000004B9F30E80000000000000BF1
+t1268723944
+s3057
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIView.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITabBarController.h
+c000000004B9F30E70000000000001124
+t1268723943
+s4388
+i<Foundation/Foundation.h>
+i<UIKit/UIViewController.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UITabBar.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITabBarItem.h
+c000000004B9F30E80000000000000647
+t1268723944
+s1607
+i<Foundation/Foundation.h>
+i<UIKit/UIBarItem.h>
+i<UIKit/UIGeometry.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h
+c000000004B9F30E70000000000005585
+t1268723943
+s21893
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIScrollView.h>
+i<UIKit/UITableViewCell.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h
+c000000004B9F30E70000000000003483
+t1268723943
+s13443
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIView.h>
+i<UIKit/UIStringDrawing.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITableViewController.h
+c000000004B9F30E800000000000004E2
+t1268723944
+s1250
+i<Foundation/Foundation.h>
+i<UIKit/UIViewController.h>
+i<UIKit/UITableView.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITapGestureRecognizer.h
+c000000004B9F30E80000000000000428
+t1268723944
+s1064
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIGestureRecognizer.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITextField.h
+c000000004B9F30E7000000000000225E
+t1268723943
+s8798
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIControl.h>
+i<UIKit/UIFont.h>
+i<UIKit/UIStringDrawing.h>
+i<UIKit/UITextInputTraits.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITextInput.h
+c000000004B9F30E8000000000000252F
+t1268723944
+s9519
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UITextInputTraits.h>
+i<UIKit/UIResponder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITextInputTraits.h
+c000000004B9F30E800000000000011EC
+t1268723944
+s4588
+i<Foundation/Foundation.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITextView.h
+c000000004B9F30E70000000000000D8E
+t1268723943
+s3470
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIScrollView.h>
+i<UIKit/UIStringDrawing.h>
+i<UIKit/UITextInputTraits.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIDataDetectors.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIToolbar.h
+c000000004B9F30E70000000000000704
+t1268723943
+s1796
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIView.h>
+i<UIKit/UIInterface.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UITouch.h
+c000000004B9F30E70000000000000851
+t1268723943
+s2129
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIVideoEditorController.h
+c000000004B9F30E800000000000007C5
+t1268723944
+s1989
+i<Foundation/Foundation.h>
+i<UIKit/UINavigationController.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIImagePickerController.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIView.h
+c000000004B9F30E70000000000002CC1
+t1268723943
+s11457
+i<Foundation/Foundation.h>
+i<UIKit/UIResponder.h>
+i<UIKit/UIInterface.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h
+c000000004B9F30E70000000000002758
+t1268723943
+s10072
+i<Foundation/Foundation.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIApplication.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h
+c000000004B9F30E70000000000000833
+t1268723943
+s2099
+i<Foundation/Foundation.h>
+i<UIKit/UIView.h>
+i<UIKit/UIKitDefines.h>
+i<UIKit/UIDataDetectors.h>
+i<UIKit/UIScrollView.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/Headers/UIWindow.h
+c000000004B9F30E7000000000000152F
+t1268723943
+s5423
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIView.h>
+i<UIKit/UIApplication.h>
+i<UIKit/UIKitDefines.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B9F3183000000000214E400
+t1268724099
+s34923520
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/Availability.h
+c000000004B9F1E7D0000000000001A1A
+t1268719229
+s6682
+i<AvailabilityInternal.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/AvailabilityInternal.h
+c000000004B9F1E7D00000000000064E7
+t1268719229
+s25831
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/AvailabilityMacros.h
+c000000004B9F1E7D0000000000006724
+t1268719229
+s26404
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ConditionalMacros.h
+c000000004B9F1E7D0000000000006860
+t1268719229
+s26720
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/MacTypes.h
+c000000004B9F1E7D00000000000079C2
+t1268719229
+s31170
+i<ConditionalMacros.h>
+i<stdbool.h>
+i<sys/types.h>
+i<AvailabilityMacros.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/TargetConditionals.h
+c000000004B9F1E7D00000000000031E9
+t1268719229
+s12777
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/_locale.h
+c000000004748A1310000000000000ABC
+t1195942193
+s2748
+i<sys/cdefs.h>
+i<_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/_structs.h
+c000000004748A13100000000000003EF
+t1195942193
+s1007
+i<sys/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/_types.h
+c000000004748A131000000000000063A
+t1195942193
+s1594
+i<sys/_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/_xlocale.h
+c000000004748A1310000000000000486
+t1195942193
+s1158
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/alloca.h
+c000000004748A1310000000000000588
+t1195942193
+s1416
+i<sys/cdefs.h>
+i<_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/architecture/i386/math.h
+c000000004748A1060000000000005EA3
+t1195942150
+s24227
+i"sys/cdefs.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/architecture/ppc/math.h
+c000000004748A10600000000000099F0
+t1195942150
+s39408
+i"sys/cdefs.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/assert.h
+c000000004748A1310000000000000DCB
+t1195942193
+s3531
+i<sys/cdefs.h>
+i<stdlib.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/available.h
+c000000004748A13300000000000053DF
+t1195942195
+s21471
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ctype.h
+c000000004748A1320000000000002C3A
+t1195942194
+s11322
+i<runetype.h>
+i<xlocale/_ctype.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/errno.h
+c000000004748A13100000000000003EB
+t1195942193
+s1003
+i<sys/errno.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/_limits.h
+c0000000041A52774000000000000042D
+t1101342580
+s1069
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/_structs.h
+c00000000476344E30000000000000CC7
+t1197688035
+s3271
+i<sys/appleapiopts.h>
+i<mach/i386/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/_types.h
+c00000000476344E30000000000001197
+t1197688035
+s4503
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/endian.h
+c00000000476344E300000000000010DA
+t1197688035
+s4314
+i<sys/cdefs.h>
+i<sys/_endian.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/setjmp.h
+c00000000476344E30000000000000A59
+t1197688035
+s2649
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/signal.h
+c00000000476344E3000000000000084C
+t1197688035
+s2124
+i<sys/cdefs.h>
+i<sys/appleapiopts.h>
+i<i386/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/i386/types.h
+c00000000476344E30000000000001351
+t1197688035
+s4945
+i<i386/_types.h>
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/inttypes.h
+c000000004748A13100000000000027D1
+t1195942193
+s10193
+i<sys/cdefs.h>
+i<_types.h>
+i<stdint.h>
+i<xlocale/_inttypes.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/OSByteOrder.h
+c00000000476344CF00000000000028FB
+t1197688015
+s10491
+i<stdint.h>
+i<libkern/_OSByteOrder.h>
+i<libkern/ppc/OSByteOrder.h>
+i<libkern/i386/OSByteOrder.h>
+i<libkern/arm/OSByteOrder.h>
+i<libkern/machine/OSByteOrder.h>
+i<libkern/machine/OSByteOrder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/OSTypes.h
+c00000000476344CF0000000000000AE2
+t1197688015
+s2786
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/_OSByteOrder.h
+c00000000476344CF00000000000010F0
+t1197688015
+s4336
+i<sys/_types.h>
+i<libkern/i386/_OSByteOrder.h>
+i<libkern/arm/OSByteOrder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/i386/OSByteOrder.h
+c00000000476344E70000000000000B8D
+t1197688039
+s2957
+i<stdint.h>
+i<libkern/i386/_OSByteOrder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/i386/_OSByteOrder.h
+c00000000476344E700000000000009D3
+t1197688039
+s2515
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/machine/OSByteOrder.h
+c00000000476344E50000000000000E56
+t1197688037
+s3670
+i<stdint.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/libkern/ppc/OSByteOrder.h
+c00000000476344DA000000000000118A
+t1197688026
+s4490
+i<stdint.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/locale.h
+c000000004748A13100000000000008F0
+t1195942193
+s2288
+i<_locale.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/boolean.h
+c000000004763449C0000000000000B08
+t1197687964
+s2824
+i<mach/machine/boolean.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/i386/_structs.h
+c00000000476344E00000000000003DF1
+t1197688032
+s15857
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/i386/boolean.h
+c00000000476344E00000000000000A61
+t1197688032
+s2657
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/i386/vm_types.h
+c00000000476344E00000000000001216
+t1197688032
+s4630
+i<i386/_types.h>
+i<stdint.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/machine/boolean.h
+c0000000047634499000000000000069B
+t1197687961
+s1691
+i"mach/ppc/boolean.h"
+i"mach/i386/boolean.h"
+i"mach/arm/boolean.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/machine/vm_types.h
+c000000004763449900000000000006A0
+t1197687961
+s1696
+i"mach/ppc/vm_types.h"
+i"mach/i386/vm_types.h"
+i"mach/arm/vm_types.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/port.h
+c000000004763449D0000000000002E29
+t1197687965
+s11817
+i<sys/cdefs.h>
+i<stdint.h>
+i<mach/boolean.h>
+i<mach/machine/vm_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/ppc/_structs.h
+c00000000476344D40000000000002D97
+t1197688020
+s11671
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/ppc/boolean.h
+c00000000476344D40000000000000A5C
+t1197688020
+s2652
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/mach/ppc/vm_types.h
+c00000000476344D4000000000000128C
+t1197688020
+s4748
+i<ppc/_types.h>
+i<ppc/vmparam.h>
+i<stdint.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/_limits.h
+c00000000476344AF0000000000000688
+t1197687983
+s1672
+i"ppc/_limits.h"
+i"i386/_limits.h"
+i"arm/_limits.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/_structs.h
+c00000000476344AF0000000000000625
+t1197687983
+s1573
+i"ppc/_structs.h"
+i"i386/_structs.h"
+i"arm/_structs.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/_types.h
+c00000000476344AF0000000000000682
+t1197687983
+s1666
+i"ppc/_types.h"
+i"i386/_types.h"
+i"arm/_types.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/endian.h
+c00000000476344AF00000000000006C3
+t1197687983
+s1731
+i"ppc/endian.h"
+i"i386/endian.h"
+i"arm/endian.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/setjmp.h
+c00000000476344AF00000000000006BB
+t1197687983
+s1723
+i"ppc/setjmp.h"
+i"i386/setjmp.h"
+i"arm/setjmp.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/signal.h
+c00000000476344AF0000000000000682
+t1197687983
+s1666
+i"ppc/signal.h"
+i"i386/signal.h"
+i"arm/signal.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/machine/types.h
+c00000000476344AF00000000000006BE
+t1197687983
+s1726
+i"ppc/types.h"
+i"i386/types.h"
+i"arm/types.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/math.h
+c000000004748A10600000000000004B7
+t1195942150
+s1207
+i"architecture/ppc/math.h"
+i"architecture/i386/math.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/objc/objc-api.h
+c000000004748F47C0000000000000781
+t1195963516
+s1921
+i<AvailabilityMacros.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/objc/objc.h
+c000000004748F47C0000000000000A27
+t1195963516
+s2599
+i<objc/objc-api.h>
+i<sys/types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/_limits.h
+c0000000041A52774000000000000042A
+t1101342580
+s1066
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/_structs.h
+c00000000476344D70000000000001D01
+t1197688023
+s7425
+i<sys/cdefs.h>
+i<mach/ppc/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/_types.h
+c00000000476344D70000000000001194
+t1197688023
+s4500
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/endian.h
+c00000000476344D700000000000015AE
+t1197688023
+s5550
+i<sys/cdefs.h>
+i<sys/_endian.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/setjmp.h
+c00000000476344D70000000000000CA0
+t1197688023
+s3232
+i<sys/cdefs.h>
+i<ppc/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/signal.h
+c00000000476344D70000000000000AE1
+t1197688023
+s2785
+i<sys/cdefs.h>
+i<sys/appleapiopts.h>
+i<ppc/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/types.h
+c00000000476344D7000000000000140B
+t1197688023
+s5131
+i<ppc/_types.h>
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/ppc/vmparam.h
+c00000000476344D700000000000008E0
+t1197688023
+s2272
+i<sys/resource.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/runetype.h
+c000000004748A1310000000000001178
+t1195942193
+s4472
+i<_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/secure/_common.h
+c000000004748A132000000000000056E
+t1195942194
+s1390
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/secure/_stdio.h
+c000000004748A132000000000000090F
+t1195942194
+s2319
+i<secure/_common.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/secure/_string.h
+c000000004748A1320000000000001110
+t1195942194
+s4368
+i<secure/_common.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/setjmp.h
+c000000004748A1310000000000000438
+t1195942193
+s1080
+i<machine/setjmp.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/signal.h
+c000000004748A13300000000000014F0
+t1195942195
+s5360
+i<sys/cdefs.h>
+i<_types.h>
+i<sys/signal.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+i<_types.h>
+i<xlocale/_stdio.h>
+i<secure/_stdio.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/stdlib.h
+c000000004748A1330000000000002A79
+t1195942195
+s10873
+i<available.h>
+i<_types.h>
+i<sys/wait.h>
+i<alloca.h>
+i<_xlocale.h>
+i<machine/types.h>
+i<xlocale/_stdlib.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/string.h
+c000000004748A1330000000000001731
+t1195942195
+s5937
+i<_types.h>
+i<sys/cdefs.h>
+i<xlocale/_string.h>
+i<secure/_string.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/_endian.h
+c00000000476344C1000000000000177A
+t1197688001
+s6010
+i<sys/cdefs.h>
+i<libkern/_OSByteOrder.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/_select.h
+c00000000476344C100000000000008F6
+t1197688001
+s2294
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/_structs.h
+c00000000476344C10000000000001EC3
+t1197688001
+s7875
+i<sys/cdefs.h>
+i<sys/_types.h>
+i<machine/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/_types.h
+c00000000476344C1000000000000181C
+t1197688001
+s6172
+i<sys/cdefs.h>
+i<machine/_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/appleapiopts.h
+c00000000476344BE0000000000000816
+t1197687998
+s2070
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/cdefs.h
+c00000000476344BE0000000000004990
+t1197687998
+s18832
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/errno.h
+c00000000476344BF0000000000002C30
+t1197687999
+s11312
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/resource.h
+c00000000476344C00000000000002440
+t1197688000
+s9280
+i<sys/appleapiopts.h>
+i<sys/cdefs.h>
+i<sys/_types.h>
+i<sys/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/select.h
+c00000000476344C000000000000016A2
+t1197688000
+s5794
+i<sys/appleapiopts.h>
+i<sys/cdefs.h>
+i<sys/_types.h>
+i<sys/_structs.h>
+i<sys/_select.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/signal.h
+c00000000476344C00000000000003E13
+t1197688000
+s15891
+i<sys/cdefs.h>
+i<sys/appleapiopts.h>
+i<machine/signal.h>
+i<sys/_types.h>
+i<sys/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/types.h
+c00000000476344C1000000000000290F
+t1197688001
+s10511
+i<sys/appleapiopts.h>
+i<sys/cdefs.h>
+i<machine/types.h>
+i<sys/_types.h>
+i<machine/endian.h>
+i<sys/_structs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/unistd.h
+c00000000476344C10000000000001D15
+t1197688001
+s7445
+i<sys/cdefs.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/sys/wait.h
+c00000000476344C1000000000000273C
+t1197688001
+s10044
+i<sys/cdefs.h>
+i<sys/_types.h>
+i<sys/signal.h>
+i<sys/resource.h>
+i<machine/endian.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/time.h
+c000000004748A133000000000000178E
+t1195942195
+s6030
+i<_types.h>
+i<_structs.h>
+i<machine/_limits.h>
+i<xlocale/_time.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+i<_types.h>
+i<sys/unistd.h>
+i<sys/select.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/xlocale/_ctype.h
+c000000004748A132000000000000166A
+t1195942194
+s5738
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/xlocale/_inttypes.h
+c000000004748A13200000000000006B2
+t1195942194
+s1714
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/xlocale/_stdio.h
+c000000004748A1320000000000000AF2
+t1195942194
+s2802
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/xlocale/_stdlib.h
+c000000004748A1320000000000000A4C
+t1195942194
+s2636
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/xlocale/_string.h
+c000000004748A1320000000000000572
+t1195942194
+s1394
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/include/xlocale/_time.h
+c000000004748A1320000000000000555
+t1195942194
+s1365
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/float.h
+c000000004748AF2700000000000014F0
+t1195945767
+s5360
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/limits.h
+c000000004748AF270000000000000C7E
+t1195945767
+s3198
+i"syslimits.h"
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdarg.h
+c000000004748AF2700000000000010D9
+t1195945767
+s4313
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdbool.h
+c000000004748AF270000000000000640
+t1195945767
+s1600
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stddef.h
+c000000004748AF270000000000003193
+t1195945767
+s12691
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/stdint.h
+c000000004748AF270000000000001BE4
+t1195945767
+s7140
+
+N/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/usr/lib/gcc/i686-apple-darwin10/4.0.1/include/syslimits.h
+c000000004748AF270000000000000155
+t1195945767
+s341
+
+NUnitTests-Info.plist
+c000000004BAE2C460000000000000281
+t1269705798
+s641
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291401159#291401159#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModel.o /Users/aubrey/pucker/Classes/GameModel.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s291401058.693357
+e291401058.787385
+r0
+xCompileC
+xbuild/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModel.o
+x/Users/aubrey/pucker/Classes/GameModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+oIn file included from /Users/aubrey/pucker/Classes/GameModel.h:10,
+o                 from /Users/aubrey/pucker/Classes/GameModel.m:9:
+o/Users/aubrey/pucker/Classes/Puck.h:39: error: syntax error before 'CGPoint'
+o/Users/aubrey/pucker/Classes/Puck.h:40: fatal error: method definition not in @implementation context
+ocompilation terminated.
+o{standard input}:32:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@48"Compile /Users/aubrey/pucker/Classes/GameModel.m291401058#291401058#0(400"In file included from /Users/aubrey/pucker/Classes/GameModel.h:10,                 from /Users/aubrey/pucker/Classes/GameModel.m:9:/Users/aubrey/pucker/Classes/Puck.h:39: error: syntax error before 'CGPoint'/Users/aubrey/pucker/Classes/Puck.h:40: fatal error: method definition not in @implementation contextcompilation terminated.{standard input}:32:FATAL:.abort  detected.  Assembly stopping.2(4@29"Syntax error before 'CGPoint'291401058#133#77#3(7@62"In file included from /Users/aubrey/pucker/Classes/GameModel.m291401058#18446744073709551615#0#0(6@40"/Users/aubrey/pucker/Classes/GameModel.m291398367#9#0#9#0#0"0(7@62"In file included from /Users/aubrey/pucker/Classes/GameModel.h291401058#18446744073709551615#0#0(6@40"/Users/aubrey/pucker/Classes/GameModel.h291330237#10#0#10#0#0"0(13@68"Syntax error before 'CGPoint' in /Users/aubrey/pucker/Classes/Puck.h291401058#18446744073709551615#0#0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#39#0#39#0#0"0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#39#0#39#0#23"syntax error before '*'0(4@48"Method definition not in @implementation context291401058#210#102#3(7@62"In file included from /Users/aubrey/pucker/Classes/GameModel.m291401058#18446744073709551615#0#0(6@40"/Users/aubrey/pucker/Classes/GameModel.m291398367#9#0#9#0#0"0(7@62"In file included from /Users/aubrey/pucker/Classes/GameModel.h291401058#18446744073709551615#0#0(6@40"/Users/aubrey/pucker/Classes/GameModel.h291330237#10#0#10#0#0"0(13@87"Method definition not in @implementation context in /Users/aubrey/pucker/Classes/Puck.h291401058#18446744073709551615#0#0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#40#0#40#0#0"0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#40#0#40#0#48"method definition not in @implementation context0(0#0#40"/Users/aubrey/pucker/Classes/GameModel.m4300911832#1933"    cd /Users/aubrey/pucker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-generated-files.hmap -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-own-target-headers.hmap -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-all-target-headers.hmap -iquote /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-project-headers.hmap -F/Users/aubrey/pucker/build/Debug-iphonesimulator -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -I/Users/aubrey/pucker/build/Debug-iphonesimulator/include -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources/i386 -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources -c /Users/aubrey/pucker/Classes/GameModel.m -o /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModel.o1#
+
+CCompileC build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModelTest.o /Users/aubrey/pucker/GameModelTest.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s291401019.434064
+e291401019.587343
+r1
+xCompileC
+xbuild/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModelTest.o
+x/Users/aubrey/pucker/GameModelTest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/Users/aubrey/pucker/GameModelTest.m: In function '-[GameModelTest testDoesActivePuckInteractWithPuck]':
+o/Users/aubrey/pucker/GameModelTest.m:45: warning: 'GameModel' may not respond to '-doesActivePuckInteractWithPuck:after:'
+o/Users/aubrey/pucker/GameModelTest.m:45: warning: (Messages without a matching method signature
+o/Users/aubrey/pucker/GameModelTest.m:45: warning: will be assumed to return 'id' and accept
+o/Users/aubrey/pucker/GameModelTest.m:45: warning: '...' as arguments.)
+o/Users/aubrey/pucker/GameModelTest.m:45: warning: initialization makes integer from pointer without a cast
+o/Users/aubrey/pucker/GameModelTest.m:46: warning: implicit declaration of function 'STAssertEqual'
+lSLF07#2@44"Compile /Users/aubrey/pucker/GameModelTest.m291401019#291401019#0(692"/Users/aubrey/pucker/GameModelTest.m: In function '-[GameModelTest testDoesActivePuckInteractWithPuck]':/Users/aubrey/pucker/GameModelTest.m:45: warning: 'GameModel' may not respond to '-doesActivePuckInteractWithPuck:after:'/Users/aubrey/pucker/GameModelTest.m:45: warning: (Messages without a matching method signature/Users/aubrey/pucker/GameModelTest.m:45: warning: will be assumed to return 'id' and accept/Users/aubrey/pucker/GameModelTest.m:45: warning: '...' as arguments.)/Users/aubrey/pucker/GameModelTest.m:45: warning: initialization makes integer from pointer without a cast/Users/aubrey/pucker/GameModelTest.m:46: warning: implicit declaration of function 'STAssertEqual'4(22@71"'GameModel' may not respond to '-doesActivePuckInteractWithPuck:after:'291401019#105#122#0(6@36"/Users/aubrey/pucker/GameModelTest.m291400822#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)291401019#227#96#0(6@36"/Users/aubrey/pucker/GameModelTest.m291400822#45#0#45#0#0"0(22@56"Initialization makes integer from pointer without a cast291401019#486#107#0(6@36"/Users/aubrey/pucker/GameModelTest.m291400822#45#0#45#0#0"0(22@48"Implicit declaration of function 'STAssertEqual'291401019#593#99#0(6@36"/Users/aubrey/pucker/GameModelTest.m291400822#46#0#46#0#36"implicit declaration of function '*'0(0#0#36"/Users/aubrey/pucker/GameModelTest.m4300911832#1933"    cd /Users/aubrey/pucker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-generated-files.hmap -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-own-target-headers.hmap -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-all-target-headers.hmap -iquote /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-project-headers.hmap -F/Users/aubrey/pucker/build/Debug-iphonesimulator -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -I/Users/aubrey/pucker/build/Debug-iphonesimulator/include -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources/i386 -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources -c /Users/aubrey/pucker/GameModelTest.m -o /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/GameModelTest.o0#
+
+CCompileC build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Puck.o /Users/aubrey/pucker/Classes/Puck.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s291401058.692499
+e291401058.801953
+r0
+xCompileC
+xbuild/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Puck.o
+x/Users/aubrey/pucker/Classes/Puck.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+oIn file included from /Users/aubrey/pucker/Classes/Puck.m:9:
+o/Users/aubrey/pucker/Classes/Puck.h:39: error: syntax error before 'CGPoint'
+o/Users/aubrey/pucker/Classes/Puck.h:40: fatal error: method definition not in @implementation context
+ocompilation terminated.
+o{standard input}:32:FATAL:.abort  detected.  Assembly stopping.
+lSLF07#2@43"Compile /Users/aubrey/pucker/Classes/Puck.m291401058#291401058#0(328"In file included from /Users/aubrey/pucker/Classes/Puck.m:9:/Users/aubrey/pucker/Classes/Puck.h:39: error: syntax error before 'CGPoint'/Users/aubrey/pucker/Classes/Puck.h:40: fatal error: method definition not in @implementation contextcompilation terminated.{standard input}:32:FATAL:.abort  detected.  Assembly stopping.2(4@29"Syntax error before 'CGPoint'291401058#61#77#2(7@57"In file included from /Users/aubrey/pucker/Classes/Puck.m291401058#18446744073709551615#0#0(6@35"/Users/aubrey/pucker/Classes/Puck.m291322125#9#0#9#0#0"0(13@68"Syntax error before 'CGPoint' in /Users/aubrey/pucker/Classes/Puck.h291401058#18446744073709551615#0#0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#39#0#39#0#0"0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#39#0#39#0#23"syntax error before '*'0(4@48"Method definition not in @implementation context291401058#138#102#2(7@57"In file included from /Users/aubrey/pucker/Classes/Puck.m291401058#18446744073709551615#0#0(6@35"/Users/aubrey/pucker/Classes/Puck.m291322125#9#0#9#0#0"0(13@87"Method definition not in @implementation context in /Users/aubrey/pucker/Classes/Puck.h291401058#18446744073709551615#0#0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#40#0#40#0#0"0(6@35"/Users/aubrey/pucker/Classes/Puck.h291319414#40#0#40#0#48"method definition not in @implementation context0(0#0#35"/Users/aubrey/pucker/Classes/Puck.m4300911832#1923"    cd /Users/aubrey/pucker    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=20000 -isysroot /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-generated-files.hmap -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-own-target-headers.hmap -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-all-target-headers.hmap -iquote /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-project-headers.hmap -F/Users/aubrey/pucker/build/Debug-iphonesimulator -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -I/Users/aubrey/pucker/build/Debug-iphonesimulator/include -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources/i386 -I/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources -c /Users/aubrey/pucker/Classes/Puck.m -o /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/Puck.o1#
+
+CGenerateDSYMFile /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest.dSYM /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests
+s291400506.954039
+e291400506.962571
+r1
+xGenerateDSYMFile
+x/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest.dSYM
+x/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/UnitTests.octest.dSYM build/Debug-iphonesimulator/UnitTests.octest/UnitTests291400506#291400506#0(0"0(0#0#75"/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests4300911832#341"    cd /Users/aubrey/pucker    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests -o /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest.dSYM0#
+
+CLd /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests normal i386
+s291401159.071787
+e291401159.088464
+r0
+xLd
+x/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests
+xnormal
+xi386
+oUndefined symbols:
+o  ".objc_class_name_GameModel", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@GameModel in GameModelTest.o
+o     (maybe you meant: .objc_class_name_GameModelTest)
+o  "_STAssertEqual", referenced from:
+o      -[GameModelTest testDoesActivePuckInteractWithPuck] in GameModelTest.o
+o  ".objc_class_name_Puck", referenced from:
+o      literal-pointer@__OBJC@__cls_refs@Puck in GameModelTest.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@80"Link /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests291401159#291401159#0(474"Undefined symbols:  ".objc_class_name_GameModel", referenced from:      literal-pointer@__OBJC@__cls_refs@GameModel in GameModelTest.o     (maybe you meant: .objc_class_name_GameModelTest)  "_STAssertEqual", referenced from:      -[GameModelTest testDoesActivePuckInteractWithPuck] in GameModelTest.o  ".objc_class_name_Puck", referenced from:      literal-pointer@__OBJC@__cls_refs@Puck in GameModelTest.old: symbol(s) not foundcollect2: ld returned 1 exit status9(4@46"".objc_class_name_GameModel", referenced from:291401159#19#49#0(6@0"291401159#0#0#0#0#0"0(13@62"Literal-pointer@__OBJC@__cls_refs@GameModel in GameModelTest.o291401159#68#69#0(6@0"291401159#0#0#0#0#0"0(13@49"(maybe you meant: .objc_class_name_GameModelTest)291401159#137#55#0(6@0"291401159#0#0#0#0#0"0(4@34""_STAssertEqual", referenced from:291401159#192#37#0(6@0"291401159#0#0#0#0#0"0(13@70"-[GameModelTest testDoesActivePuckInteractWithPuck] in GameModelTest.o291401159#229#77#0(6@0"291401159#0#0#0#0#0"0(4@41"".objc_class_name_Puck", referenced from:291401159#306#44#0(6@0"291401159#0#0#0#0#0"0(13@57"Literal-pointer@__OBJC@__cls_refs@Puck in GameModelTest.o291401159#350#64#0(6@0"291401159#0#0#0#0#0"0(13@19"Symbol(s) not found291401159#414#24#0(6@0"291401159#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status291401159#438#36#0(6@0"291401159#0#0#0#0#0"0(0#0#0"4300911832#1222"    cd /Users/aubrey/pucker    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.0 -arch i386 -bundle -isysroot /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve -L/Users/aubrey/pucker/build/Debug-iphonesimulator -F/Users/aubrey/pucker/build/Debug-iphonesimulator -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -F/var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks -filelist /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/UnitTests.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework SenTestingKit -framework UIKit -o /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/UnitTests1#
+
+CPhaseScriptExecution "Run Script" /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Script-7E1F3565115E63C600567C7F.sh
+s291401159.088554
+e291401159.359084
+r0
+xPhaseScriptExecution
+xRun Script
+x/Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Script-7E1F3565115E63C600567C7F.sh
+o/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'i386'
+o/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)
+oobjc[35985]: GC: forcing GC OFF because OBJC_DISABLE_GC is set
+o2010-03-27 12:45:59.353 otest[35985:903] The executable for the test bundle at /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest could not be found.
+o/Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)
+o/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'i386'
+lSLF07#2@36"Run custom shell script 'Run Script'291401159#291401159#1(20@47"Run unit tests for architecture 'i386' (GC OFF)291401159#291401159#0(436"/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)objc[35985]: GC: forcing GC OFF because OBJC_DISABLE_GC is set2010-03-27 12:45:59.353 otest[35985:903] The executable for the test bundle at /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest could not be found./Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)1(4@45"Failed tests for architecture 'i386' (GC OFF)291401159#18446744073709551615#0#0(6@0"291401159#0#0#0#0#0"0(0#0#0"0"103"/Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)0"670"/Developer/Tools/RunPlatformUnitTests.include:412: note: Started tests for architectures 'i386'/Developer/Tools/RunPlatformUnitTests.include:419: note: Running tests for architecture 'i386' (GC OFF)objc[35985]: GC: forcing GC OFF because OBJC_DISABLE_GC is set2010-03-27 12:45:59.353 otest[35985:903] The executable for the test bundle at /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest could not be found./Developer/Tools/RunPlatformUnitTests.include:448: error: Failed tests for architecture 'i386' (GC OFF)/Developer/Tools/RunPlatformUnitTests.include:462: note: Completed tests for architectures 'i386'Command /bin/sh failed with exit code 11(4@39"Command /bin/sh failed with exit code 1291401159#18446744073709551615#0#0(1@0"0(0#0#0"4300911832#16679"    cd /Users/aubrey/pucker    setenv ACTION build    setenv ADDITIONAL_SDKS /Users/aubrey/Library/SDKs/JSON/iphonesimulator.sdk    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER aubrey    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/aubrey/pucker/build    setenv BUILD_ROOT /Users/aubrey/pucker/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/aubrey/pucker/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/aubrey/pucker/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH UnitTests.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/pucker.dst    setenv DWARF_DSYM_FILE_NAME UnitTests.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/aubrey/pucker/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH UnitTests.octest/Executables    setenv EXECUTABLE_FOLDER_PATH UnitTests.octest    setenv EXECUTABLE_NAME UnitTests    setenv EXECUTABLE_PATH UnitTests.octest/UnitTests    setenv FILE_LIST /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH UnitTests.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/aubrey/pucker/build/Debug-iphonesimulator /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve/Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME UnitTests.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=20000"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.0    setenv GCC_VERSION_IDENTIFIER __0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/aubrey/pucker/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE UnitTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH UnitTests.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/pucker.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER aubrey    setenv INSTALL_ROOT /tmp/pucker.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH UnitTests.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/UnitTests-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/aubrey/pucker/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal/i386/UnitTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Objects-normal    setenv OBJROOT /Users/aubrey/pucker/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework SenTestingKit -framework UIKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH UnitTests.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/PkgInfo    setenv PKGINFO_PATH UnitTests.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH UnitTests.octest/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH UnitTests.octest/PrivateHeaders    setenv PRODUCT_NAME UnitTests    setenv PRODUCT_SETTINGS_PATH /Users/aubrey/pucker/UnitTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT pucker    setenv PROJECT_DERIVED_FILE_DIR /Users/aubrey/pucker/build/pucker.build/DerivedSources    setenv PROJECT_DIR /Users/aubrey/pucker    setenv PROJECT_FILE_PATH /Users/aubrey/pucker/pucker.xcodeproj    setenv PROJECT_NAME pucker    setenv PROJECT_TEMP_DIR /Users/aubrey/pucker/build/pucker.build    setenv PUBLIC_HEADERS_FOLDER_PATH UnitTests.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/aubrey/pucker/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH UnitTests.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve    setenv SDK_DIR /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator-iPhoneSimulator3.2-dwuriyfrrtyetyglpgwyblslcsve    setenv SDK_NAME iphonesimulator3.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/aubrey/pucker/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH UnitTests.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/C+/C+61VgyeFca9UC9nMVQtIk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH UnitTests.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/aubrey/pucker    setenv SRCROOT /Users/aubrey/pucker    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SYMBOL_REPOSITORY_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/SymbolRepositories    setenv SYMROOT /Users/aubrey/pucker/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 2    setenv TARGETNAME UnitTests    setenv TARGET_BUILD_DIR /Users/aubrey/pucker/build/Debug-iphonesimulator    setenv TARGET_NAME UnitTests    setenv TARGET_TEMP_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build    setenv TEMP_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build    setenv TEMP_FILES_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build    setenv TEMP_FILE_DIR /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build    setenv TEMP_ROOT /Users/aubrey/pucker/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH UnitTests.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER aubrey    setenv USER_APPS_DIR /Users/aubrey/Applications    setenv USER_LIBRARY_DIR /Users/aubrey/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH UnitTests.octest/version.plist    setenv VERSION_INFO_BUILDER aubrey    setenv VERSION_INFO_FILE UnitTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:UnitTests  PROJECT:pucker-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME UnitTests.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/aubrey/pucker/build/pucker.build/Debug-iphonesimulator/UnitTests.build/Script-7E1F3565115E63C600567C7F.sh1#
+
+CProcessInfoPlistFile /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/Info.plist UnitTests-Info.plist
+s291401019.326331
+e291401019.338041
+r1
+xProcessInfoPlistFile
+x/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/Info.plist
+xUnitTests-Info.plist
+lSLF07#2@28"Process UnitTests-Info.plist291401019#291401019#0(0"0(0#0#41"/Users/aubrey/pucker/UnitTests-Info.plist4300911832#351"    cd /Users/aubrey/pucker    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UnitTests-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest/Info.plist0#
+
+CTouch /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest
+s291400507.051148
+e291400507.053218
+r1
+xTouch
+x/Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest
+lSLF07#2@71"Touch /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest291400507#291400507#0(0"0(0#0#0"4300911832#247"    cd /Users/aubrey/pucker    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/aubrey/pucker/build/Debug-iphonesimulator/UnitTests.octest0#
+

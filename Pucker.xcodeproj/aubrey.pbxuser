@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PuckerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {467, 469}}";
+			sepNavSelRange = "{433, 0}";
+			sepNavVisRange = "{0, 439}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PuckerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 637}}";
+			sepNavSelRange = "{849, 0}";
+			sepNavVisRange = "{210, 703}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Pucker */ = {
+		activeExec = 0;
+		executables = (
+			7E1B3941115545E8006BC3F5 /* Pucker */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7E1B3941115545E8006BC3F5 /* Pucker */;
+		activeSDKPreference = iphonesimulator3.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Pucker */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Pucker */,
+		);
+		breakpoints = (
+			7E1D83E6115CE5C0007C7398 /* PlayView.m:174 */,
+			7E1F3537115E630700567C7F /* PuckLayer.m:32 */,
+		);
+		codeSenseManager = 7E1B394B115545EC006BC3F5 /* Code sense */;
+		executables = (
+			7E1B3941115545E8006BC3F5 /* Pucker */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					490,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					450,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 291499270;
+			PBXWorkspaceStateSaveDate = 291499270;
+		};
+		perUserProjectItems = {
+			7E569C501160100600224643 /* PBXTextBookmark */ = 7E569C501160100600224643 /* PBXTextBookmark */;
+			7E569C511160100600224643 /* PBXTextBookmark */ = 7E569C511160100600224643 /* PBXTextBookmark */;
+			7E7E4011115EDDA100BE0FBF /* PBXTextBookmark */ = 7E7E4011115EDDA100BE0FBF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7E1B394A115545EC006BC3F5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7E1B3941115545E8006BC3F5 /* Pucker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Pucker;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7E1B394A115545EC006BC3F5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7E1B394B115545EC006BC3F5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7E1B395311554631006BC3F5 /* HttpClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 445}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 627}";
+		};
+	};
+	7E1B395411554631006BC3F5 /* HttpClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {684, 1430}}";
+			sepNavSelRange = "{1744, 0}";
+			sepNavVisRange = "{1624, 297}";
+			sepNavWindowFrame = "{{15, 91}, {685, 783}}";
+		};
+	};
+	7E1B395711554631006BC3F5 /* Puck.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 655}}";
+			sepNavSelRange = "{917, 0}";
+			sepNavVisRange = "{0, 925}";
+			sepNavWindowFrame = "{{15, 91}, {685, 783}}";
+		};
+	};
+	7E1B395811554631006BC3F5 /* Puck.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 806}}";
+			sepNavSelRange = "{622, 0}";
+			sepNavVisRange = "{200, 565}";
+		};
+	};
+	7E1B397511554C68006BC3F5 /* PlayViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 481}}";
+			sepNavSelRange = "{584, 0}";
+			sepNavVisRange = "{39, 707}";
+		};
+	};
+	7E1B397611554C68006BC3F5 /* PlayViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 1716}}";
+			sepNavSelRange = "{2397, 0}";
+			sepNavVisRange = "{1817, 643}";
+		};
+	};
+	7E1B39B411555904006BC3F5 /* ScoreViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {425, 469}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	7E1B39B511555904006BC3F5 /* ScoreViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 767}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 879}";
+		};
+	};
+	7E1B39B7115559FF006BC3F5 /* HelpViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {425, 446}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 231}";
+		};
+	};
+	7E1B39BA11555A11006BC3F5 /* AchievementViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {425, 446}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
+	7E1D83E6115CE5C0007C7398 /* PlayView.m:174 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7ED031AF11558FC200F8B304 /* PlayView.m */;
+		functionName = "-touchesBegan:withEvent:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 174;
+		location = Pucker;
+		modificationTime = 291402128.090318;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	7E1D8450115CF0F6007C7398 /* PuckLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 411}}";
+			sepNavSelRange = "{277, 0}";
+			sepNavVisRange = "{0, 283}";
+		};
+	};
+	7E1D8451115CF0F6007C7398 /* PuckLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 585}}";
+			sepNavSelRange = "{733, 0}";
+			sepNavVisRange = "{215, 694}";
+		};
+	};
+	7E1F3537115E630700567C7F /* PuckLayer.m:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7E1D8451115CF0F6007C7398 /* PuckLayer.m */;
+		functionName = "-updateWithPucks:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		location = Pucker;
+		modificationTime = 291402128.090398;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	7E24A4FF1157BC62002820C2 /* SpriteLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 429}}";
+			sepNavSelRange = "{477, 0}";
+			sepNavVisRange = "{0, 499}";
+		};
+	};
+	7E24A5001157BC62002820C2 /* SpriteLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 546}}";
+			sepNavSelRange = "{539, 11}";
+			sepNavVisRange = "{264, 343}";
+		};
+	};
+	7E24A5021157BC62002820C2 /* Texture2D.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 4368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{9613, 1131}";
+		};
+	};
+	7E24A5121157BDF0002820C2 /* AbstractTrackable.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 429}}";
+			sepNavSelRange = "{465, 0}";
+			sepNavVisRange = "{0, 561}";
+		};
+	};
+	7E24A5131157BDF0002820C2 /* AbstractTrackable.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 1209}}";
+			sepNavSelRange = "{184, 34}";
+			sepNavVisRange = "{0, 446}";
+		};
+	};
+	7E569C36115FF15000224643 /* Game.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 372}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{0, 348}";
+		};
+	};
+	7E569C37115FF15000224643 /* Game.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 372}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 285}";
+		};
+	};
+	7E569C40115FF2C400224643 /* Move.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 507}}";
+			sepNavSelRange = "{380, 0}";
+			sepNavVisRange = "{165, 432}";
+		};
+	};
+	7E569C41115FF2C400224643 /* Move.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {670, 372}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	7E569C45115FF3C500224643 /* Piece.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 390}}";
+			sepNavSelRange = "{371, 0}";
+			sepNavVisRange = "{0, 378}";
+		};
+	};
+	7E569C46115FF3C500224643 /* Piece.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 372}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 223}";
+		};
+	};
+	7E569C501160100600224643 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7ED032031155974F00F8B304 /* GameModel.m */;
+		name = "GameModel.m: 58";
+		rLen = 232;
+		rLoc = 1030;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 804;
+	};
+	7E569C511160100600224643 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7ED032031155974F00F8B304 /* GameModel.m */;
+		name = "GameModel.m: 10";
+		rLen = 0;
+		rLoc = 158;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 0;
+	};
+	7E7E4011115EDDA100BE0FBF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7ED032021155974F00F8B304 /* GameModel.h */;
+		name = "GameModel.h: 48";
+		rLen = 0;
+		rLoc = 879;
+		rType = 0;
+		vrLen = 546;
+		vrLoc = 379;
+	};
+	7ED031AE11558FC200F8B304 /* PlayView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 624}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRange = "{193, 1062}";
+		};
+	};
+	7ED031AF11558FC200F8B304 /* PlayView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 3250}}";
+			sepNavSelRange = "{5788, 0}";
+			sepNavVisRange = "{5320, 705}";
+		};
+	};
+	7ED031B011558FC200F8B304 /* ES1Renderer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 533}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{137, 653}";
+		};
+	};
+	7ED031B111558FC200F8B304 /* ES1Renderer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {873, 1755}}";
+			sepNavSelRange = "{2368, 0}";
+			sepNavVisRange = "{2302, 1146}";
+		};
+	};
+	7ED032021155974F00F8B304 /* GameModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 689}}";
+			sepNavSelRange = "{879, 0}";
+			sepNavVisRange = "{379, 546}";
+		};
+	};
+	7ED032031155974F00F8B304 /* GameModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 3796}}";
+			sepNavSelRange = "{158, 0}";
+			sepNavVisRange = "{0, 588}";
+		};
+	};
+	7EEDDA9511597AF800563888 /* CannonLayer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {673, 404}}";
+			sepNavSelRange = "{313, 0}";
+			sepNavVisRange = "{0, 319}";
+		};
+	};
+	7EEDDA9611597AF800563888 /* CannonLayer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 806}}";
+			sepNavSelRange = "{651, 0}";
+			sepNavVisRange = "{510, 629}";
+		};
+	};
+}
