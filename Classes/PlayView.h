@@ -12,6 +12,8 @@
 #import "ESRenderer.h"
 #import "GameModel.h"
 
+#define kLaunchRange	75
+#define kPanRange		150
 
 // This class wraps the CAEAGLLayer from CoreAnimation into a convenient UIView subclass.
 // The view content is basically an EAGL surface you render your OpenGL scene into.

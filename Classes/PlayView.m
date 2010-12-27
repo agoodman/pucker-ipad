@@ -109,6 +109,7 @@
 
 - (void)startAnimation
 {
+	NSLog(@"PlayView.startAnimation");
     if (!animating)
     {
         if (displayLinkSupported)
@@ -130,6 +131,7 @@
 
 - (void)stopAnimation
 {
+	NSLog(@"PlayView.stopAnimation");
     if (animating)
     {
         if (displayLinkSupported)
@@ -149,11 +151,14 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	// do nothing if a puck is in motion
+	if( model.activePuck ) return;
+	
 	if( touches.count==1 ) {
 		// check if touch is near cannon
 		BOOL isNear = YES;
 		CGPoint p = [[touches anyObject] locationInView:self];
-		if( abs(p.x-model.cx)>150 || abs(p.y-906+model.cy)>150 ) {
+		if( abs(p.x-model.cx)>kLaunchRange || abs(p.y-906+model.cy)>kLaunchRange ) {
 			isNear = NO;
 		}
 		if( isNear ) {
@@ -166,7 +171,7 @@
 		BOOL isNear = YES;
 		for (UITouch* t in touches) {
 			CGPoint p = [t locationInView:self];
-			if( abs(p.x-model.cx)>150 || abs(p.y-906+model.cy)>150 ) {
+			if( abs(p.x-model.cx)>kPanRange || abs(p.y-906+model.cy)>kPanRange ) {
 				isNear = NO;
 				break;
 			}
@@ -180,18 +185,23 @@
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	// do nothing if a puck is in motion
+	if( model.activePuck ) return;
+	
 	if( touches.count==1 ) {
 		if( dragStart ) {
 			dragStart = NO;
 			dragging = YES;
 		}
-		CGPoint p = [[touches anyObject] locationInView:self];
-		float dx = p.x - model.cx, dy = p.y - 906 + model.cy;
-		float tAngle = -atan2(dy, dx);
-		float tLength = (sqrt(dx*dx+dy*dy) / 150.0) * 800.0;
-		@synchronized( model ) {
-			model.angle = tAngle;
-			model.power = tLength;
+		if( dragging ) {
+			CGPoint p = [[touches anyObject] locationInView:self];
+			float dx = p.x - model.cx, dy = p.y - 906 + model.cy;
+			float tAngle = -atan2(dy, dx);
+			float tLength = (sqrt(dx*dx+dy*dy) / kPanRange) * 800.0;
+			@synchronized( model ) {
+				model.angle = tAngle;
+				model.power = tLength;
+			}
 		}
 	}else if( touches.count==2 && panning ) {
 		UITouch *t = [touches anyObject];
@@ -203,7 +213,7 @@
 			float dmin = 768;
 			for (Puck* p in model.pucks) {
 				float dx = p.x - tCx, dy = p.y - tCy;
-				float d = sqrt(dx*dx+dy*dy) - 150.0 - p.radius;
+				float d = sqrt(dx*dx+dy*dy) - kPanRange - p.radius;
 				if( d<dmin ) {
 					dmin = d;
 				}
@@ -218,6 +228,9 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
+	// do nothing if a puck is in motion
+	if( model.activePuck ) return;
+	
 	if( panning ) {
 		panning = NO;
 	}
