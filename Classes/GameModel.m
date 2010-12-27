@@ -7,11 +7,13 @@
 //
 
 #import "GameModel.h"
+#import "PlayView.h"
 
 
 @interface GameModel (private)
 -(void)checkPuckEvents:(float)dt;
 -(void)growActivePuck;
+-(NSDictionary*)currentState;
 -(BOOL)doesActivePuckInteractWithPuck:(Puck*)p after:(float)dt;
 -(BOOL)doesActivePuckInteractWithRect:(CGRect)rect after:(float)dt;
 -(BOOL)doesActivePuckInteractWithShieldAfter:(float)dt;
@@ -28,8 +30,10 @@
 - (id)init
 {
 	if( self = [super init] ) {
-		self.cx = 384.0;
-		self.cy = 100.0;
+		queue = dispatch_queue_create("com.migrant.pucker.game", 0);
+		
+		self.cx = kDefaultCx;
+		self.cy = kDefaultCy;
 		
 		attempts = 10;
 		
@@ -60,12 +64,16 @@
 							cx:(float)aCx
 							cy:(float)aCy
 						 angle:(float)aAngle
-						 power:(float)aPower4
+						 power:(float)aPower
 						 pucks:(NSArray*)aPucks
 {
 	attempts = aAttempts;
 	score = aScore;
 	multiplier = aMultiplier;
+	cx = aCx;
+	cy = aCy;
+	angle = aAngle;
+	power = aPower;
 	[pucks removeAllObjects];
 	[pucks addObjectsFromArray:aPucks];
 }
@@ -102,17 +110,21 @@
 		self.activePuck = nil;
 		attempts--;
 		[scoreDelegate attemptsDidChange:attempts];
+		if( attempts<=0 ) {
+			[self gameOver];
+			return;
+		}
 	}
 	
 	// check for launch
 	if( !activePuck.launched ) {
-		if( abs(activePuck.x-cx)>150+activePuck.radius && 
-		   abs(activePuck.y-cy)>150+activePuck.radius ) 
+		if( abs(activePuck.x-cx)>kPanRange+activePuck.radius && 
+		   abs(activePuck.y-cy)>kPanRange+activePuck.radius ) 
 		{
 			activePuck.launched = YES;
 		}else{
 			float dx = activePuck.x - cx, dy = activePuck.y - cy;
-			if( sqrt(dx*dx+dy*dy)>150+activePuck.radius ) {
+			if( sqrt(dx*dx+dy*dy)>kPanRange+activePuck.radius ) {
 				activePuck.launched = YES;
 			}
 		}
@@ -149,7 +161,7 @@
 	// check for wall interaction
 	if( [self doesActivePuckInteractWithRect:CGRectMake(0, 0, 768, 906) after:dt] ) {
 		if( activePuck.launched ) {
-			NSLog(@"TODO play wall bounce sound");
+			[scoreDelegate puckWallBounce];
 		}else{
 			self.activePuck = nil;
 			attempts--;
@@ -165,6 +177,7 @@
 			[pucks addObject:activePuck];
 		}
 		self.activePuck = nil;
+		[self endTurn];
 	}
 }
 
@@ -269,8 +282,31 @@
 	[scoreDelegate multiplierDidChange:multiplier];
 }
 
+- (void)endTurn
+{
+	[scoreDelegate turnEndedWithState:[self currentState]];
+}
+
+- (void)gameOver
+{
+	[scoreDelegate gameEndedWithState:[self currentState]];
+}
+
 #pragma mark -
 
+- (NSDictionary*)currentState
+{
+	NSMutableDictionary* tState = [[[NSMutableDictionary alloc] init] autorelease];
+	[tState setValue:[NSNumber numberWithInt:attempts] forKey:@"attempts"];
+	[tState setValue:[NSNumber numberWithInt:score] forKey:@"score"];
+	[tState setValue:[NSNumber numberWithInt:multiplier] forKey:@"multiplier"];
+	[tState setValue:[NSNumber numberWithFloat:cx] forKey:@"cx"];
+	[tState setValue:[NSNumber numberWithFloat:cy] forKey:@"cy"];
+	[tState setValue:[NSNumber numberWithFloat:angle] forKey:@"angle"];
+	[tState setValue:[NSNumber numberWithFloat:power] forKey:@"power"];
+	[tState setObject:[NSArray arrayWithArray:pucks] forKey:@"pucks"];
+	return tState;
+}
 
 - (void)dealloc
 {

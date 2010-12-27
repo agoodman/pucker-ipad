@@ -10,12 +10,17 @@
 #import "Puck.h"
 
 #define kPuckDamping 500.0
+#define kDefaultCx	384.0
+#define kDefaultCy	100.0
 
 
 @protocol GameStateDelegate
+-(void)puckWallBounce;
 -(void)scoreDidChange:(int)newScore;
 -(void)multiplierDidChange:(int)newMultiplier;
 -(void)attemptsDidChange:(int)newAttempts;
+-(void)turnEndedWithState:(NSDictionary*)stateDictionary;
+-(void)gameEndedWithState:(NSDictionary*)stateDictionary;
 @end
 
 
@@ -34,6 +39,7 @@
 	int attempts;
 	
 	id<GameStateDelegate> scoreDelegate;
+	dispatch_queue_t queue;
 	
 }
 
@@ -45,8 +51,11 @@
 @property float angle;
 @property float power;
 
+-(void)resumeGameWithAttempts:(int)aAttempts score:(int)aScore multiplier:(int)aMultiplier cx:(float)aCx cy:(float)aCy angle:(float)aAngle power:(float)aPower pucks:(NSArray*)aPucks;
 -(void)resetGame;
 -(void)update:(float)dt;
 -(void)launchPuck;
+-(void)endTurn;
+-(void)gameOver;
 
 @end

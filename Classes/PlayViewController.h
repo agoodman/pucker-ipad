@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 #import "PlayView.h"
 #import "GameModel.h"
 
@@ -18,7 +19,15 @@
 	UILabel* playerAttempts;
 	PlayView* playView;
 	UIView* pauseView;
+	UIView* gameOverView;
 	GameModel* model;
+	SystemSoundID multiplierSound;
+	SystemSoundID attemptSound;
+	SystemSoundID wallSound;
+	SystemSoundID scoreSound;
+	SystemSoundID buzzerSound;
+	SystemSoundID turnSound;
+	dispatch_queue_t queue;
 	
 }
 
@@ -27,10 +36,12 @@
 @property (retain) IBOutlet UILabel* playerAttempts;
 @property (retain) IBOutlet PlayView* playView;
 @property (retain) IBOutlet UIView* pauseView;
+@property (retain) IBOutlet UIView* gameOverView;
 
 -(void)showPause;
 -(IBAction)quitGame;
 -(IBAction)resumeGame;
+-(IBAction)newGame;
 
 
 @end
