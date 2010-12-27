@@ -14,9 +14,9 @@
 
 @interface PlayViewController : UIViewController <GameStateDelegate> {
 
-	UILabel* playerScore;
-	UILabel* playerMultiplier;
-	UILabel* playerAttempts;
+	UILabel* playerScoreLabel;
+	UILabel* playerMultiplierLabel;
+	UILabel* playerAttemptsLabel;
 	PlayView* playView;
 	UIView* pauseView;
 	UIView* gameOverView;
@@ -27,18 +27,19 @@
 	SystemSoundID scoreSound;
 	SystemSoundID buzzerSound;
 	SystemSoundID turnSound;
+	SystemSoundID launchSound;
 	dispatch_queue_t queue;
 	
 }
 
-@property (retain) IBOutlet UILabel* playerScore;
-@property (retain) IBOutlet UILabel* playerMultiplier;
-@property (retain) IBOutlet UILabel* playerAttempts;
+@property (retain) IBOutlet UILabel* playerScoreLabel;
+@property (retain) IBOutlet UILabel* playerMultiplierLabel;
+@property (retain) IBOutlet UILabel* playerAttemptsLabel;
 @property (retain) IBOutlet PlayView* playView;
 @property (retain) IBOutlet UIView* pauseView;
 @property (retain) IBOutlet UIView* gameOverView;
 
--(void)showPause;
+-(void)pauseGame;
 -(IBAction)quitGame;
 -(IBAction)resumeGame;
 -(IBAction)newGame;

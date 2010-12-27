@@ -9,6 +9,11 @@
 #import "PlayViewController.h"
 
 
+@interface PlayViewController (private)
+-(void)loadSounds;
+@end
+
+
 @implementation PlayViewController
 
 @synthesize playView, pauseView;
@@ -36,8 +41,8 @@
 	
 	// init game model
 	model = [[GameModel alloc] init];
-	model.scoreDelegate = self;
-	[playView setModel:model]; 
+	model.gameStateDelegate = self;
+	[playView setModel:model];
 	
 	// load game sounds
 	[self loadSounds];
@@ -45,14 +50,15 @@
 	// TODO check for stored state and load if available
 	
 	// show pause view
-	[self showPause];
+	[self newGame];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
 	[super viewWillDisappear:animated];
-	
-	[self showPause];
+
+	// automatically pause game when game view is obscured 
+	[self pauseGame];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation 
@@ -85,9 +91,10 @@
 	AudioServicesCreateSystemSoundID((CFURLRef)[[[NSBundle mainBundle] URLForResource:@"score" withExtension:@"caf"] retain], &scoreSound);
 	AudioServicesCreateSystemSoundID((CFURLRef)[[[NSBundle mainBundle] URLForResource:@"buzzer" withExtension:@"caf"] retain], &buzzerSound);
 	AudioServicesCreateSystemSoundID((CFURLRef)[[[NSBundle mainBundle] URLForResource:@"turn" withExtension:@"caf"] retain], &turnSound);
+	AudioServicesCreateSystemSoundID((CFURLRef)[[[NSBundle mainBundle] URLForResource:@"launch" withExtension:@"caf"] retain], &launchSound);
 }
 
-- (void)showPause
+- (void)pauseGame
 {
 	[playView stopAnimation];
 	pauseView.hidden = NO;
@@ -113,13 +120,18 @@
 	[playView startAnimation];
 	pauseView.hidden = YES;
 	gameOverView.hidden = YES;
-	playerScore.text = @"0";
-	playerMultiplier.text = @"1x";
-	playerAttempts.text = @"10";
+	playerScoreLabel.text = @"0";
+	playerMultiplierLabel.text = @"1x";
+	playerAttemptsLabel.text = @"10";
 }
 
 #pragma mark -
-#pragma mark ScoreDelegate
+#pragma mark GameStateDelegate
+
+- (void)puckLaunched
+{
+	dispatch_async(queue, ^{ AudioServicesPlaySystemSound(launchSound); });
+}
 
 - (void)puckWallBounce
 {
@@ -129,7 +141,7 @@
 - (void)scoreDidChange:(int)newScore
 {
 	dispatch_async(dispatch_get_main_queue(), ^{
-		playerScore.text = [NSString stringWithFormat:@"%d",newScore];
+		playerScoreLabel.text = [NSString stringWithFormat:@"%d",newScore];
 	});
 	
 	dispatch_async(queue, ^{ AudioServicesPlaySystemSound(scoreSound); });
@@ -138,7 +150,7 @@
 - (void)multiplierDidChange:(int)newMultiplier
 {
 	dispatch_async(dispatch_get_main_queue(), ^{
-		playerMultiplier.text = [NSString stringWithFormat:@"%dx",newMultiplier];
+		playerMultiplierLabel.text = [NSString stringWithFormat:@"%dx",newMultiplier];
 	});
 	if( newMultiplier>1 ) {
 		dispatch_async(queue, ^{ AudioServicesPlaySystemSound(multiplierSound); });
@@ -148,7 +160,7 @@
 - (void)attemptsDidChange:(int)newAttempts
 {
 	dispatch_async(dispatch_get_main_queue(), ^{
-		playerAttempts.text = [NSString stringWithFormat:@"%d",newAttempts];
+		playerAttemptsLabel.text = [NSString stringWithFormat:@"%d",newAttempts];
 	});
 	dispatch_async(queue, ^{ AudioServicesPlaySystemSound(attemptSound); });
 }
@@ -175,9 +187,9 @@
 {
 	[playView release];
 	[pauseView release];
-	[playerScore release];
-	[playerMultiplier release];
-	[playerAttempts release];
+	[playerScoreLabel release];
+	[playerMultiplierLabel release];
+	[playerAttemptsLabel release];
     [super dealloc];
 }
 

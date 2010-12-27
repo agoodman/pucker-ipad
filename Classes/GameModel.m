@@ -22,7 +22,7 @@
 
 @implementation GameModel
 
-@synthesize scoreDelegate;
+@synthesize gameStateDelegate;
 @synthesize activePuck;
 @synthesize pucks;
 @synthesize cx, cy, angle, power;
@@ -109,7 +109,7 @@
 	if( activePuck.launched && [self doesActivePuckInteractWithShieldAfter:dt] ) {
 		self.activePuck = nil;
 		attempts--;
-		[scoreDelegate attemptsDidChange:attempts];
+		[gameStateDelegate attemptsDidChange:attempts];
 		if( attempts<=0 ) {
 			[self gameOver];
 			return;
@@ -137,18 +137,22 @@
 			if( activePuck.launched ) {
 				p.count = p.count - 1;
 				multiplier++;
-				[scoreDelegate multiplierDidChange:multiplier];
+				[gameStateDelegate multiplierDidChange:multiplier];
 				collisionDetected = YES;
 			}else{
 				attempts--;
 				self.activePuck = nil;
-				[scoreDelegate attemptsDidChange:attempts];
+				[gameStateDelegate attemptsDidChange:attempts];
+				if( attempts<=0 ) {
+					[self gameOver];
+					return;
+				}
 				collisionDetected = YES;
 			}
 		}
 		if( p.count<=0 ) {
 			score += multiplier;
-			[scoreDelegate scoreDidChange:score];
+			[gameStateDelegate scoreDidChange:score];
 			[pucksOld addObject:p];
 		}
 		if( collisionDetected ) {
@@ -161,11 +165,15 @@
 	// check for wall interaction
 	if( [self doesActivePuckInteractWithRect:CGRectMake(0, 0, 768, 906) after:dt] ) {
 		if( activePuck.launched ) {
-			[scoreDelegate puckWallBounce];
+			[gameStateDelegate puckWallBounce];
 		}else{
 			self.activePuck = nil;
 			attempts--;
-			[scoreDelegate attemptsDidChange:attempts];
+			[gameStateDelegate attemptsDidChange:attempts];
+			if( attempts<=0 ) {
+				[self gameOver];
+				return;
+			}
 		}
 	}
 	
@@ -279,17 +287,18 @@
 	float v = power * sin(angle);
 	self.activePuck = [[[Puck alloc] initAtPoint:CGPointMake(cx, cy) withVelocity:CGPointMake(u, v)] autorelease];
 	multiplier = 1;
-	[scoreDelegate multiplierDidChange:multiplier];
+	[gameStateDelegate multiplierDidChange:multiplier];
+	[gameStateDelegate puckLaunched];
 }
 
 - (void)endTurn
 {
-	[scoreDelegate turnEndedWithState:[self currentState]];
+	[gameStateDelegate turnEndedWithState:[self currentState]];
 }
 
 - (void)gameOver
 {
-	[scoreDelegate gameEndedWithState:[self currentState]];
+	[gameStateDelegate gameEndedWithState:[self currentState]];
 }
 
 #pragma mark -

@@ -12,7 +12,6 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="73"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -38,7 +37,7 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUIView" id="697781829">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -423,7 +422,6 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{768, 956}</string>
-				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -480,30 +478,6 @@
 					<int key="connectionID">67</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">playerMultiplier</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="161282210"/>
-					</object>
-					<int key="connectionID">68</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">playerScore</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="123045914"/>
-					</object>
-					<int key="connectionID">69</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">playerAttempts</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="267219818"/>
-					</object>
-					<int key="connectionID">72</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">quitGame</string>
 						<reference key="source" ref="223086439"/>
@@ -528,6 +502,30 @@
 						<int key="IBEventType">7</int>
 					</object>
 					<int key="connectionID">80</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">playerScoreLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="123045914"/>
+					</object>
+					<int key="connectionID">81</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">playerMultiplierLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="161282210"/>
+					</object>
+					<int key="connectionID">82</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">playerAttemptsLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="267219818"/>
+					</object>
+					<int key="connectionID">83</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -770,7 +768,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">80</int>
+			<int key="maxID">83</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -917,9 +915,9 @@
 							<string>gameOverView</string>
 							<string>pauseView</string>
 							<string>playView</string>
-							<string>playerAttempts</string>
-							<string>playerMultiplier</string>
-							<string>playerScore</string>
+							<string>playerAttemptsLabel</string>
+							<string>playerMultiplierLabel</string>
+							<string>playerScoreLabel</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -938,9 +936,9 @@
 							<string>gameOverView</string>
 							<string>pauseView</string>
 							<string>playView</string>
-							<string>playerAttempts</string>
-							<string>playerMultiplier</string>
-							<string>playerScore</string>
+							<string>playerAttemptsLabel</string>
+							<string>playerMultiplierLabel</string>
+							<string>playerScoreLabel</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -957,15 +955,15 @@
 								<string key="candidateClassName">PlayView</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">playerAttempts</string>
+								<string key="name">playerAttemptsLabel</string>
 								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">playerMultiplier</string>
+								<string key="name">playerMultiplierLabel</string>
 								<string key="candidateClassName">UILabel</string>
 							</object>
 							<object class="IBToOneOutletInfo">
-								<string key="name">playerScore</string>
+								<string key="name">playerScoreLabel</string>
 								<string key="candidateClassName">UILabel</string>
 							</object>
 						</object>

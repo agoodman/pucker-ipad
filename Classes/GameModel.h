@@ -15,6 +15,7 @@
 
 
 @protocol GameStateDelegate
+-(void)puckLaunched;
 -(void)puckWallBounce;
 -(void)scoreDidChange:(int)newScore;
 -(void)multiplierDidChange:(int)newMultiplier;
@@ -38,12 +39,12 @@
 	int multiplier;
 	int attempts;
 	
-	id<GameStateDelegate> scoreDelegate;
+	id<GameStateDelegate> gameStateDelegate;
 	dispatch_queue_t queue;
 	
 }
 
-@property (assign) id<GameStateDelegate> scoreDelegate;
+@property (assign) id<GameStateDelegate> gameStateDelegate;
 @property (retain) Puck* activePuck;
 @property (retain) NSMutableArray* pucks;
 @property float cx;

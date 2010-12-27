@@ -84,6 +84,7 @@
 		7E8E546C12C8255000A25755 /* buzzer.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E546B12C8255000A25755 /* buzzer.caf */; };
 		7E8E547E12C8290F00A25755 /* score.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E547C12C8290F00A25755 /* score.caf */; };
 		7E8E547F12C8290F00A25755 /* turn.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E547D12C8290F00A25755 /* turn.caf */; };
+		7EB3841A12C9155E004457A7 /* launch.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB3841912C9155E004457A7 /* launch.caf */; };
 		7ED031B511558FC200F8B304 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED031AF11558FC200F8B304 /* PlayView.m */; };
 		7ED031B611558FC200F8B304 /* ES1Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED031B111558FC200F8B304 /* ES1Renderer.m */; };
 		7ED031B711558FC200F8B304 /* ES2Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED031B311558FC200F8B304 /* ES2Renderer.m */; };
@@ -228,6 +229,7 @@
 		7E8E546B12C8255000A25755 /* buzzer.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = buzzer.caf; path = source/buzzer.caf; sourceTree = "<group>"; };
 		7E8E547C12C8290F00A25755 /* score.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = score.caf; path = source/score.caf; sourceTree = "<group>"; };
 		7E8E547D12C8290F00A25755 /* turn.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = turn.caf; path = source/turn.caf; sourceTree = "<group>"; };
+		7EB3841912C9155E004457A7 /* launch.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = launch.caf; path = source/launch.caf; sourceTree = "<group>"; };
 		7ED031AE11558FC200F8B304 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
 		7ED031AF11558FC200F8B304 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		7ED031B011558FC200F8B304 /* ES1Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ES1Renderer.h; sourceTree = "<group>"; };
@@ -340,6 +342,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7EB3841912C9155E004457A7 /* launch.caf */,
 				7E8E547C12C8290F00A25755 /* score.caf */,
 				7E8E547D12C8290F00A25755 /* turn.caf */,
 				7E8E546B12C8255000A25755 /* buzzer.caf */,
@@ -605,6 +608,7 @@
 				7E8E546C12C8255000A25755 /* buzzer.caf in Resources */,
 				7E8E547E12C8290F00A25755 /* score.caf in Resources */,
 				7E8E547F12C8290F00A25755 /* turn.caf in Resources */,
+				7EB3841A12C9155E004457A7 /* launch.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
